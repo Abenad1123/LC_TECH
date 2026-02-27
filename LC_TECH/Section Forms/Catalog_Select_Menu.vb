@@ -1,0 +1,2 @@
+﻿Public Class Catalog_Select_Menu
+End Class
