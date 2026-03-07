@@ -171,7 +171,7 @@ Partial Class Reset_Password_Menu
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.White
-        Me.Label17.Location = New System.Drawing.Point(1048, 89)
+        Me.Label17.Location = New System.Drawing.Point(1044, 89)
         Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(195, 108)
@@ -204,7 +204,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.870229!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.34096!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 233.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 234.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox2, 4, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox4, 3, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.SearchBar_Text, 2, 1)
@@ -225,7 +225,7 @@ Partial Class Reset_Password_Menu
         '
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox2.Image = Global.LC_TECH.My.Resources.Resources.cart_shopping_solid_full
-        Me.PictureBox2.Location = New System.Drawing.Point(863, 10)
+        Me.PictureBox2.Location = New System.Drawing.Point(861, 10)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(0)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(41, 31)
@@ -237,7 +237,7 @@ Partial Class Reset_Password_Menu
         '
         Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox4.Image = Global.LC_TECH.My.Resources.Resources.user_solid_full
-        Me.PictureBox4.Location = New System.Drawing.Point(760, 10)
+        Me.PictureBox4.Location = New System.Drawing.Point(758, 10)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(0, 0, 14, 0)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(41, 31)
@@ -250,17 +250,17 @@ Partial Class Reset_Password_Menu
         Me.SearchBar_Text.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.SearchBar_Text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.SearchBar_Text.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SearchBar_Text.Location = New System.Drawing.Point(290, 14)
+        Me.SearchBar_Text.Location = New System.Drawing.Point(289, 14)
         Me.SearchBar_Text.Margin = New System.Windows.Forms.Padding(4)
         Me.SearchBar_Text.Name = "SearchBar_Text"
-        Me.SearchBar_Text.Size = New System.Drawing.Size(466, 30)
+        Me.SearchBar_Text.Size = New System.Drawing.Size(465, 30)
         Me.SearchBar_Text.TabIndex = 3
         '
         'PictureBox3
         '
         Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox3.Image = Global.LC_TECH.My.Resources.Resources.magnifying_glass_solid_full
-        Me.PictureBox3.Location = New System.Drawing.Point(240, 10)
+        Me.PictureBox3.Location = New System.Drawing.Point(239, 10)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(0, 0, 14, 0)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(32, 31)
@@ -275,7 +275,7 @@ Partial Class Reset_Password_Menu
         Me.Product_DropBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Product_DropBox.FormattingEnabled = True
         Me.Product_DropBox.Items.AddRange(New Object() {"All", "Peripherals", "Components", "Accessories", "Laptops", "Pre Built PCs"})
-        Me.Product_DropBox.Location = New System.Drawing.Point(32, 10)
+        Me.Product_DropBox.Location = New System.Drawing.Point(31, 10)
         Me.Product_DropBox.Margin = New System.Windows.Forms.Padding(0)
         Me.Product_DropBox.Name = "Product_DropBox"
         Me.Product_DropBox.Size = New System.Drawing.Size(202, 30)
@@ -532,7 +532,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.0!))
         Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.0!))
         Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.0!))
-        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 145.0!))
+        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150.0!))
         Me.TableLayoutPanel15.Controls.Add(Me.PictureBox21, 9, 0)
         Me.TableLayoutPanel15.Controls.Add(Me.PictureBox20, 7, 0)
         Me.TableLayoutPanel15.Controls.Add(Me.PictureBox19, 5, 0)
@@ -556,7 +556,7 @@ Partial Class Reset_Password_Menu
         '
         Me.PictureBox21.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox21.Image = Global.LC_TECH.My.Resources.Resources.list_solid_full
-        Me.PictureBox21.Location = New System.Drawing.Point(1012, 121)
+        Me.PictureBox21.Location = New System.Drawing.Point(1008, 121)
         Me.PictureBox21.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox21.Name = "PictureBox21"
         Me.PictureBox21.Size = New System.Drawing.Size(28, 44)
@@ -568,7 +568,7 @@ Partial Class Reset_Password_Menu
         '
         Me.PictureBox20.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox20.Image = Global.LC_TECH.My.Resources.Resources.image_solid_full
-        Me.PictureBox20.Location = New System.Drawing.Point(767, 121)
+        Me.PictureBox20.Location = New System.Drawing.Point(764, 121)
         Me.PictureBox20.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox20.Name = "PictureBox20"
         Me.PictureBox20.Size = New System.Drawing.Size(28, 44)
@@ -580,7 +580,7 @@ Partial Class Reset_Password_Menu
         '
         Me.PictureBox19.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox19.Image = Global.LC_TECH.My.Resources.Resources.wallet_solid_full
-        Me.PictureBox19.Location = New System.Drawing.Point(522, 121)
+        Me.PictureBox19.Location = New System.Drawing.Point(520, 121)
         Me.PictureBox19.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(28, 44)
@@ -592,7 +592,7 @@ Partial Class Reset_Password_Menu
         '
         Me.PictureBox18.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox18.Image = Global.LC_TECH.My.Resources.Resources.calendar_days_solid_full
-        Me.PictureBox18.Location = New System.Drawing.Point(277, 121)
+        Me.PictureBox18.Location = New System.Drawing.Point(276, 121)
         Me.PictureBox18.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(28, 44)
@@ -620,7 +620,7 @@ Partial Class Reset_Password_Menu
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.White
-        Me.Label14.Location = New System.Drawing.Point(313, 89)
+        Me.Label14.Location = New System.Drawing.Point(312, 89)
         Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(200, 108)
@@ -634,7 +634,7 @@ Partial Class Reset_Password_Menu
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(558, 89)
+        Me.Label15.Location = New System.Drawing.Point(556, 89)
         Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(193, 108)
@@ -648,7 +648,7 @@ Partial Class Reset_Password_Menu
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.White
-        Me.Label16.Location = New System.Drawing.Point(803, 89)
+        Me.Label16.Location = New System.Drawing.Point(800, 89)
         Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(195, 108)
@@ -689,7 +689,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
-        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 59.0!))
+        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61.0!))
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel29, 1, 1)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel27, 1, 3)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel26, 1, 4)
@@ -732,7 +732,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 1
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(438, 139)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(437, 139)
         Me.TableLayoutPanel29.TabIndex = 9
         '
         'Label31
@@ -773,7 +773,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel27.Name = "TableLayoutPanel27"
         Me.TableLayoutPanel27.RowCount = 1
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel27.Size = New System.Drawing.Size(438, 111)
+        Me.TableLayoutPanel27.Size = New System.Drawing.Size(437, 111)
         Me.TableLayoutPanel27.TabIndex = 6
         '
         'Label33
@@ -814,7 +814,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel26.RowCount = 1
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 111.0!))
-        Me.TableLayoutPanel26.Size = New System.Drawing.Size(438, 111)
+        Me.TableLayoutPanel26.Size = New System.Drawing.Size(437, 111)
         Me.TableLayoutPanel26.TabIndex = 7
         '
         'Label25
@@ -849,7 +849,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel25.Controls.Add(Me.Label35, 1, 0)
         Me.TableLayoutPanel25.Controls.Add(Me.PictureBox32, 0, 0)
         Me.TableLayoutPanel25.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel25.Location = New System.Drawing.Point(904, 222)
+        Me.TableLayoutPanel25.Location = New System.Drawing.Point(903, 222)
         Me.TableLayoutPanel25.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel25.Name = "TableLayoutPanel25"
         Me.TableLayoutPanel25.RowCount = 1
@@ -889,7 +889,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel24.Controls.Add(Me.Label36, 1, 0)
         Me.TableLayoutPanel24.Controls.Add(Me.PictureBox31, 0, 0)
         Me.TableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel24.Location = New System.Drawing.Point(904, 333)
+        Me.TableLayoutPanel24.Location = New System.Drawing.Point(903, 333)
         Me.TableLayoutPanel24.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel24.Name = "TableLayoutPanel24"
         Me.TableLayoutPanel24.RowCount = 1
@@ -929,7 +929,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel22.Controls.Add(Me.Label34, 1, 0)
         Me.TableLayoutPanel22.Controls.Add(Me.PictureBox29, 0, 0)
         Me.TableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel22.Location = New System.Drawing.Point(904, 83)
+        Me.TableLayoutPanel22.Location = New System.Drawing.Point(903, 83)
         Me.TableLayoutPanel22.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel22.Name = "TableLayoutPanel22"
         Me.TableLayoutPanel22.RowCount = 1
@@ -970,7 +970,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel20.Controls.Add(Me.Label24, 1, 0)
         Me.TableLayoutPanel20.Controls.Add(Me.PictureBox28, 0, 0)
         Me.TableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel20.Location = New System.Drawing.Point(466, 444)
+        Me.TableLayoutPanel20.Location = New System.Drawing.Point(465, 444)
         Me.TableLayoutPanel20.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel20.Name = "TableLayoutPanel20"
         Me.TableLayoutPanel20.RowCount = 1
@@ -1011,7 +1011,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel21.Controls.Add(Me.Label30, 1, 0)
         Me.TableLayoutPanel21.Controls.Add(Me.PictureBox27, 0, 0)
         Me.TableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel21.Location = New System.Drawing.Point(466, 333)
+        Me.TableLayoutPanel21.Location = New System.Drawing.Point(465, 333)
         Me.TableLayoutPanel21.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel21.Name = "TableLayoutPanel21"
         Me.TableLayoutPanel21.RowCount = 1
@@ -1051,7 +1051,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel19.Controls.Add(Me.Label29, 1, 0)
         Me.TableLayoutPanel19.Controls.Add(Me.PictureBox26, 0, 0)
         Me.TableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel19.Location = New System.Drawing.Point(466, 222)
+        Me.TableLayoutPanel19.Location = New System.Drawing.Point(465, 222)
         Me.TableLayoutPanel19.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel19.Name = "TableLayoutPanel19"
         Me.TableLayoutPanel19.RowCount = 1
@@ -1089,7 +1089,7 @@ Partial Class Reset_Password_Menu
         Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(908, 23)
+        Me.Label22.Location = New System.Drawing.Point(907, 23)
         Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(113, 36)
@@ -1102,7 +1102,7 @@ Partial Class Reset_Password_Menu
         Me.Label21.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(470, 23)
+        Me.Label21.Location = New System.Drawing.Point(469, 23)
         Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(150, 36)
@@ -1129,7 +1129,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel18.Controls.Add(Me.Label28, 1, 0)
         Me.TableLayoutPanel18.Controls.Add(Me.PictureBox25, 0, 0)
         Me.TableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel18.Location = New System.Drawing.Point(466, 83)
+        Me.TableLayoutPanel18.Location = New System.Drawing.Point(465, 83)
         Me.TableLayoutPanel18.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel18.Name = "TableLayoutPanel18"
         Me.TableLayoutPanel18.RowCount = 1
@@ -1171,7 +1171,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel23.Controls.Add(Me.Label23, 1, 0)
         Me.TableLayoutPanel23.Controls.Add(Me.PictureBox30, 0, 0)
         Me.TableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel23.Location = New System.Drawing.Point(904, 444)
+        Me.TableLayoutPanel23.Location = New System.Drawing.Point(903, 444)
         Me.TableLayoutPanel23.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel23.Name = "TableLayoutPanel23"
         Me.TableLayoutPanel23.RowCount = 1
@@ -1216,7 +1216,7 @@ Partial Class Reset_Password_Menu
         Me.TableLayoutPanel28.Name = "TableLayoutPanel28"
         Me.TableLayoutPanel28.RowCount = 1
         Me.TableLayoutPanel28.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel28.Size = New System.Drawing.Size(438, 111)
+        Me.TableLayoutPanel28.Size = New System.Drawing.Size(437, 111)
         Me.TableLayoutPanel28.TabIndex = 8
         '
         'Label32
