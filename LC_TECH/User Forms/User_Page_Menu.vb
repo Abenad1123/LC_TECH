@@ -1,7 +1,4 @@
-﻿Imports System.Data
-Imports System.Data.SqlClient
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
-Public Class Main_Menu
+﻿Public Class User_Page_Menu
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
         SetPlaceholder()
         Product_DropBox.SelectedIndex = 0
@@ -47,8 +44,39 @@ Public Class Main_Menu
     End Sub
 
     '------------ END OF INITIALIZATION ------------
+    Private Sub SetUserData(sender As Object, e As EventArgs) Handles MyBase.Load
+        Label6.Text = User.FullName
+        Label7.Text = User.UserName
+        Label8.Text = User.Email
 
-    Private Sub Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        FlowLayoutPanel2.Width = Panel4.ClientSize.Width
+        Label9.Text = New String("*"c, User.Password.Length)
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        User.User_Login = False
+        User.FullName = ""
+        User.UserName = ""
+        User.Email = ""
+        User.Password = ""
+
+        MsgBox("User logout successfully!")
+    End Sub
+
+    Dim showPassword As Boolean = False
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        showPassword = Not showPassword
+
+        If showPassword Then
+            Label9.Text = User.Password
+            Button1.Text = "Hide"
+        Else
+            Label9.Text = New String("*"c, User.Password.Length)
+            Button1.Text = "Show"
+        End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        OpenForm(Of Reset_Password_Menu)(Me)
     End Sub
 End Class

@@ -56,7 +56,20 @@ Partial Class Catalog_Select_Menu
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Footer_Main = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel15 = New System.Windows.Forms.TableLayoutPanel()
@@ -121,6 +134,10 @@ Partial Class Catalog_Select_Menu
         CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        Me.TableLayoutPanel4.SuspendLayout()
+        Me.TableLayoutPanel6.SuspendLayout()
+        Me.TableLayoutPanel7.SuspendLayout()
+        Me.TableLayoutPanel5.SuspendLayout()
         Me.Footer_Main.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.TableLayoutPanel15.SuspendLayout()
@@ -168,7 +185,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox2.Image = Global.LC_TECH.My.Resources.Resources.cart_shopping_solid_full
-        Me.PictureBox2.Location = New System.Drawing.Point(948, 12)
+        Me.PictureBox2.Location = New System.Drawing.Point(940, 12)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(0)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(30, 30)
@@ -180,7 +197,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox4.Image = Global.LC_TECH.My.Resources.Resources.user_solid_full
-        Me.PictureBox4.Location = New System.Drawing.Point(873, 12)
+        Me.PictureBox4.Location = New System.Drawing.Point(865, 12)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(0, 0, 10, 0)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(30, 30)
@@ -192,7 +209,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox3.Image = Global.LC_TECH.My.Resources.Resources.magnifying_glass_solid_full
-        Me.PictureBox3.Location = New System.Drawing.Point(296, 16)
+        Me.PictureBox3.Location = New System.Drawing.Point(292, 16)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(0, 0, 10, 0)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(23, 23)
@@ -205,7 +222,7 @@ Partial Class Catalog_Select_Menu
         Me.Label36.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(71, 26)
+        Me.Label36.Location = New System.Drawing.Point(70, 26)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(157, 22)
         Me.Label36.TabIndex = 8
@@ -216,7 +233,7 @@ Partial Class Catalog_Select_Menu
         Me.Label35.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(71, 15)
+        Me.Label35.Location = New System.Drawing.Point(70, 15)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(155, 44)
         Me.Label35.TabIndex = 8
@@ -227,7 +244,7 @@ Partial Class Catalog_Select_Menu
         Me.Label34.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(71, 2)
+        Me.Label34.Location = New System.Drawing.Point(70, 2)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(341, 88)
         Me.Label34.TabIndex = 8
@@ -239,7 +256,7 @@ Partial Class Catalog_Select_Menu
         Me.Label33.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(71, 26)
+        Me.Label33.Location = New System.Drawing.Point(70, 26)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(157, 22)
         Me.Label33.TabIndex = 8
@@ -250,7 +267,7 @@ Partial Class Catalog_Select_Menu
         Me.Label32.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(71, 15)
+        Me.Label32.Location = New System.Drawing.Point(70, 15)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(155, 44)
         Me.Label32.TabIndex = 8
@@ -261,7 +278,7 @@ Partial Class Catalog_Select_Menu
         Me.Label31.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(71, 13)
+        Me.Label31.Location = New System.Drawing.Point(70, 13)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(298, 66)
         Me.Label31.TabIndex = 8
@@ -273,7 +290,7 @@ Partial Class Catalog_Select_Menu
         Me.Label29.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(71, 15)
+        Me.Label29.Location = New System.Drawing.Point(70, 15)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(155, 44)
         Me.Label29.TabIndex = 8
@@ -284,7 +301,7 @@ Partial Class Catalog_Select_Menu
         Me.Label28.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(71, 13)
+        Me.Label28.Location = New System.Drawing.Point(70, 13)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(345, 66)
         Me.Label28.TabIndex = 7
@@ -304,7 +321,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 1
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(454, 92)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(452, 92)
         Me.TableLayoutPanel29.TabIndex = 9
         '
         'PictureBox36
@@ -332,7 +349,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel27.Name = "TableLayoutPanel27"
         Me.TableLayoutPanel27.RowCount = 1
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel27.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel27.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel27.TabIndex = 6
         '
         'PictureBox34
@@ -360,7 +377,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel28.Name = "TableLayoutPanel28"
         Me.TableLayoutPanel28.RowCount = 1
         Me.TableLayoutPanel28.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel28.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel28.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel28.TabIndex = 8
         '
         'PictureBox35
@@ -380,7 +397,7 @@ Partial Class Catalog_Select_Menu
         Me.Label25.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(71, 15)
+        Me.Label25.Location = New System.Drawing.Point(70, 15)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(180, 44)
         Me.Label25.TabIndex = 6
@@ -400,7 +417,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel26.RowCount = 1
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel26.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel26.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel26.TabIndex = 7
         '
         'PictureBox33
@@ -423,12 +440,12 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel25.Controls.Add(Me.Label35, 1, 0)
         Me.TableLayoutPanel25.Controls.Add(Me.PictureBox32, 0, 0)
         Me.TableLayoutPanel25.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel25.Location = New System.Drawing.Point(928, 147)
+        Me.TableLayoutPanel25.Location = New System.Drawing.Point(924, 147)
         Me.TableLayoutPanel25.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel25.Name = "TableLayoutPanel25"
         Me.TableLayoutPanel25.RowCount = 1
         Me.TableLayoutPanel25.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel25.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel25.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel25.TabIndex = 5
         '
         'PictureBox32
@@ -451,12 +468,12 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel24.Controls.Add(Me.Label36, 1, 0)
         Me.TableLayoutPanel24.Controls.Add(Me.PictureBox31, 0, 0)
         Me.TableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel24.Location = New System.Drawing.Point(928, 221)
+        Me.TableLayoutPanel24.Location = New System.Drawing.Point(924, 221)
         Me.TableLayoutPanel24.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel24.Name = "TableLayoutPanel24"
         Me.TableLayoutPanel24.RowCount = 1
         Me.TableLayoutPanel24.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel24.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel24.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel24.TabIndex = 6
         '
         'PictureBox31
@@ -476,7 +493,7 @@ Partial Class Catalog_Select_Menu
         Me.Label23.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(71, 15)
+        Me.Label23.Location = New System.Drawing.Point(70, 15)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(180, 44)
         Me.Label23.TabIndex = 6
@@ -490,12 +507,12 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel22.Controls.Add(Me.Label34, 1, 0)
         Me.TableLayoutPanel22.Controls.Add(Me.PictureBox29, 0, 0)
         Me.TableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel22.Location = New System.Drawing.Point(928, 55)
+        Me.TableLayoutPanel22.Location = New System.Drawing.Point(924, 55)
         Me.TableLayoutPanel22.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel22.Name = "TableLayoutPanel22"
         Me.TableLayoutPanel22.RowCount = 1
         Me.TableLayoutPanel22.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel22.Size = New System.Drawing.Size(454, 92)
+        Me.TableLayoutPanel22.Size = New System.Drawing.Size(452, 92)
         Me.TableLayoutPanel22.TabIndex = 4
         '
         'PictureBox29
@@ -518,12 +535,12 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel23.Controls.Add(Me.Label23, 1, 0)
         Me.TableLayoutPanel23.Controls.Add(Me.PictureBox30, 0, 0)
         Me.TableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel23.Location = New System.Drawing.Point(928, 295)
+        Me.TableLayoutPanel23.Location = New System.Drawing.Point(924, 295)
         Me.TableLayoutPanel23.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel23.Name = "TableLayoutPanel23"
         Me.TableLayoutPanel23.RowCount = 1
         Me.TableLayoutPanel23.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel23.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel23.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel23.TabIndex = 7
         '
         'PictureBox30
@@ -543,7 +560,7 @@ Partial Class Catalog_Select_Menu
         Me.Label30.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(71, 26)
+        Me.Label30.Location = New System.Drawing.Point(70, 26)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(157, 22)
         Me.Label30.TabIndex = 9
@@ -564,7 +581,8 @@ Partial Class Catalog_Select_Menu
         '
         'Panel4
         '
-        Me.Panel4.Controls.Add(Me.FlowLayoutPanel1)
+        Me.Panel4.Controls.Add(Me.TableLayoutPanel4)
+        Me.Panel4.Controls.Add(Me.TableLayoutPanel3)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Margin = New System.Windows.Forms.Padding(0)
@@ -572,12 +590,201 @@ Partial Class Catalog_Select_Menu
         Me.Panel4.Size = New System.Drawing.Size(1403, 1920)
         Me.Panel4.TabIndex = 2
         '
-        'FlowLayoutPanel1
+        'TableLayoutPanel4
         '
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(200, 100)
-        Me.FlowLayoutPanel1.TabIndex = 0
+        Me.TableLayoutPanel4.ColumnCount = 1
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel4.Controls.Add(Me.TableLayoutPanel6, 0, 1)
+        Me.TableLayoutPanel4.Controls.Add(Me.TableLayoutPanel5, 0, 0)
+        Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Left
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(0, 100)
+        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(0)
+        Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
+        Me.TableLayoutPanel4.RowCount = 2
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 200.0!))
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(257, 1820)
+        Me.TableLayoutPanel4.TabIndex = 1
+        '
+        'TableLayoutPanel6
+        '
+        Me.TableLayoutPanel6.ColumnCount = 2
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.Controls.Add(Me.CheckedListBox1, 0, 3)
+        Me.TableLayoutPanel6.Controls.Add(Me.TableLayoutPanel7, 0, 1)
+        Me.TableLayoutPanel6.Controls.Add(Me.Label2, 0, 0)
+        Me.TableLayoutPanel6.Controls.Add(Me.Label4, 0, 2)
+        Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(0, 200)
+        Me.TableLayoutPanel6.Margin = New System.Windows.Forms.Padding(0)
+        Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
+        Me.TableLayoutPanel6.RowCount = 4
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(257, 1620)
+        Me.TableLayoutPanel6.TabIndex = 1
+        '
+        'CheckedListBox1
+        '
+        Me.CheckedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.CheckedListBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Location = New System.Drawing.Point(20, 210)
+        Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(20, 20, 0, 0)
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(217, 1410)
+        Me.CheckedListBox1.TabIndex = 2
+        '
+        'TableLayoutPanel7
+        '
+        Me.TableLayoutPanel7.ColumnCount = 3
+        Me.TableLayoutPanel6.SetColumnSpan(Me.TableLayoutPanel7, 2)
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel7.Controls.Add(Me.Label3, 1, 0)
+        Me.TableLayoutPanel7.Controls.Add(Me.TextBox1, 0, 0)
+        Me.TableLayoutPanel7.Controls.Add(Me.TextBox2, 2, 0)
+        Me.TableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(0, 50)
+        Me.TableLayoutPanel7.Margin = New System.Windows.Forms.Padding(0)
+        Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
+        Me.TableLayoutPanel7.RowCount = 1
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(257, 80)
+        Me.TableLayoutPanel7.TabIndex = 2
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label3.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(118, 0)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(20, 80)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "-"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(21, 24)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(75, 32)
+        Me.TextBox1.TabIndex = 0
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.TextBox2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(160, 24)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(75, 32)
+        Me.TextBox2.TabIndex = 1
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(20, 13)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(20, 0, 3, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(61, 24)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Price"
+        '
+        'Label4
+        '
+        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(20, 148)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(20, 0, 3, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(71, 24)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Brand"
+        '
+        'TableLayoutPanel5
+        '
+        Me.TableLayoutPanel5.ColumnCount = 2
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel5.Controls.Add(Me.CheckBox2, 0, 2)
+        Me.TableLayoutPanel5.Controls.Add(Me.Label1, 0, 0)
+        Me.TableLayoutPanel5.Controls.Add(Me.CheckBox1, 0, 1)
+        Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(0)
+        Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
+        Me.TableLayoutPanel5.RowCount = 3
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(257, 200)
+        Me.TableLayoutPanel5.TabIndex = 0
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.Location = New System.Drawing.Point(20, 148)
+        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(20, 0, 0, 0)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(139, 28)
+        Me.CheckBox2.TabIndex = 2
+        Me.CheckBox2.Text = "Out of stock"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(20, 13)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(20, 0, 3, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(123, 24)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Availability"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(20, 73)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(20, 0, 0, 0)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(102, 28)
+        Me.CheckBox1.TabIndex = 1
+        Me.CheckBox1.Text = "In stock"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'TableLayoutPanel3
+        '
+        Me.TableLayoutPanel3.ColumnCount = 4
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
+        Me.TableLayoutPanel3.RowCount = 1
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1403, 100)
+        Me.TableLayoutPanel3.TabIndex = 0
         '
         'Footer_Main
         '
@@ -621,7 +828,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.0!))
         Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.0!))
         Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.0!))
-        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 28.0!))
+        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 49.0!))
         Me.TableLayoutPanel15.Controls.Add(Me.PictureBox21, 9, 0)
         Me.TableLayoutPanel15.Controls.Add(Me.PictureBox20, 7, 0)
         Me.TableLayoutPanel15.Controls.Add(Me.PictureBox19, 5, 0)
@@ -645,7 +852,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox21.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox21.Image = Global.LC_TECH.My.Resources.Resources.list_solid_full
-        Me.PictureBox21.Location = New System.Drawing.Point(1108, 80)
+        Me.PictureBox21.Location = New System.Drawing.Point(1092, 80)
         Me.PictureBox21.Name = "PictureBox21"
         Me.PictureBox21.Size = New System.Drawing.Size(29, 29)
         Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -656,7 +863,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox20.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox20.Image = Global.LC_TECH.My.Resources.Resources.image_solid_full
-        Me.PictureBox20.Location = New System.Drawing.Point(838, 80)
+        Me.PictureBox20.Location = New System.Drawing.Point(826, 80)
         Me.PictureBox20.Name = "PictureBox20"
         Me.PictureBox20.Size = New System.Drawing.Size(29, 29)
         Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -667,7 +874,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox19.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox19.Image = Global.LC_TECH.My.Resources.Resources.wallet_solid_full
-        Me.PictureBox19.Location = New System.Drawing.Point(568, 80)
+        Me.PictureBox19.Location = New System.Drawing.Point(560, 80)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(29, 29)
         Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -678,7 +885,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox18.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox18.Image = Global.LC_TECH.My.Resources.Resources.calendar_days_solid_full
-        Me.PictureBox18.Location = New System.Drawing.Point(298, 80)
+        Me.PictureBox18.Location = New System.Drawing.Point(294, 80)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(29, 29)
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -704,7 +911,7 @@ Partial Class Catalog_Select_Menu
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.White
-        Me.Label14.Location = New System.Drawing.Point(333, 41)
+        Me.Label14.Location = New System.Drawing.Point(329, 41)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(219, 108)
         Me.Label14.TabIndex = 1
@@ -717,7 +924,7 @@ Partial Class Catalog_Select_Menu
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(603, 41)
+        Me.Label15.Location = New System.Drawing.Point(595, 41)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(193, 108)
         Me.Label15.TabIndex = 2
@@ -730,9 +937,9 @@ Partial Class Catalog_Select_Menu
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.White
-        Me.Label17.Location = New System.Drawing.Point(1143, 41)
+        Me.Label17.Location = New System.Drawing.Point(1127, 41)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(221, 108)
+        Me.Label17.Size = New System.Drawing.Size(215, 108)
         Me.Label17.TabIndex = 4
         Me.Label17.Text = "Prices and specifications may change without prior notice."
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -743,9 +950,9 @@ Partial Class Catalog_Select_Menu
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.White
-        Me.Label16.Location = New System.Drawing.Point(873, 54)
+        Me.Label16.Location = New System.Drawing.Point(861, 41)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(223, 81)
+        Me.Label16.Size = New System.Drawing.Size(208, 108)
         Me.Label16.TabIndex = 3
         Me.Label16.Text = "Images posted are for reference only. Actual product may vary."
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -782,7 +989,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
-        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel29, 1, 1)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel27, 1, 3)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel26, 1, 4)
@@ -820,13 +1027,13 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel20.Controls.Add(Me.Label24, 1, 0)
         Me.TableLayoutPanel20.Controls.Add(Me.PictureBox28, 0, 0)
         Me.TableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel20.Location = New System.Drawing.Point(474, 295)
+        Me.TableLayoutPanel20.Location = New System.Drawing.Point(472, 295)
         Me.TableLayoutPanel20.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel20.Name = "TableLayoutPanel20"
         Me.TableLayoutPanel20.RowCount = 1
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel20.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel20.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel20.TabIndex = 5
         '
         'Label24
@@ -834,7 +1041,7 @@ Partial Class Catalog_Select_Menu
         Me.Label24.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(71, 15)
+        Me.Label24.Location = New System.Drawing.Point(70, 15)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(180, 44)
         Me.Label24.TabIndex = 6
@@ -860,12 +1067,12 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel21.Controls.Add(Me.Label30, 1, 0)
         Me.TableLayoutPanel21.Controls.Add(Me.PictureBox27, 0, 0)
         Me.TableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel21.Location = New System.Drawing.Point(474, 221)
+        Me.TableLayoutPanel21.Location = New System.Drawing.Point(472, 221)
         Me.TableLayoutPanel21.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel21.Name = "TableLayoutPanel21"
         Me.TableLayoutPanel21.RowCount = 1
         Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel21.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel21.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel21.TabIndex = 5
         '
         'PictureBox27
@@ -888,13 +1095,13 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel19.Controls.Add(Me.Label29, 1, 0)
         Me.TableLayoutPanel19.Controls.Add(Me.PictureBox26, 0, 0)
         Me.TableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel19.Location = New System.Drawing.Point(474, 147)
+        Me.TableLayoutPanel19.Location = New System.Drawing.Point(472, 147)
         Me.TableLayoutPanel19.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel19.Name = "TableLayoutPanel19"
         Me.TableLayoutPanel19.RowCount = 1
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel19.Size = New System.Drawing.Size(454, 74)
+        Me.TableLayoutPanel19.Size = New System.Drawing.Size(452, 74)
         Me.TableLayoutPanel19.TabIndex = 4
         '
         'PictureBox26
@@ -914,7 +1121,7 @@ Partial Class Catalog_Select_Menu
         Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(931, 9)
+        Me.Label22.Location = New System.Drawing.Point(927, 9)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(113, 36)
         Me.Label22.TabIndex = 2
@@ -926,7 +1133,7 @@ Partial Class Catalog_Select_Menu
         Me.Label21.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(477, 9)
+        Me.Label21.Location = New System.Drawing.Point(475, 9)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(150, 36)
         Me.Label21.TabIndex = 1
@@ -951,13 +1158,13 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel18.Controls.Add(Me.Label28, 1, 0)
         Me.TableLayoutPanel18.Controls.Add(Me.PictureBox25, 0, 0)
         Me.TableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel18.Location = New System.Drawing.Point(474, 55)
+        Me.TableLayoutPanel18.Location = New System.Drawing.Point(472, 55)
         Me.TableLayoutPanel18.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel18.Name = "TableLayoutPanel18"
         Me.TableLayoutPanel18.RowCount = 1
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel18.Size = New System.Drawing.Size(454, 92)
+        Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 92.0!))
+        Me.TableLayoutPanel18.Size = New System.Drawing.Size(452, 92)
         Me.TableLayoutPanel18.TabIndex = 3
         '
         'PictureBox25
@@ -1065,7 +1272,7 @@ Partial Class Catalog_Select_Menu
         Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
         Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
-        Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 21.0!))
+        Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24.0!))
         Me.Payment_Methods.Controls.Add(Me.Label18, 1, 0)
         Me.Payment_Methods.Controls.Add(Me.Label19, 2, 0)
         Me.Payment_Methods.Dock = System.Windows.Forms.DockStyle.Bottom
@@ -1097,7 +1304,7 @@ Partial Class Catalog_Select_Menu
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.Label19.Location = New System.Drawing.Point(1159, 17)
+        Me.Label19.Location = New System.Drawing.Point(1156, 17)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(219, 22)
         Me.Label19.TabIndex = 1
@@ -1108,7 +1315,7 @@ Partial Class Catalog_Select_Menu
         Me.SearchBar_Text.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.SearchBar_Text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.SearchBar_Text.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SearchBar_Text.Location = New System.Drawing.Point(332, 14)
+        Me.SearchBar_Text.Location = New System.Drawing.Point(328, 14)
         Me.SearchBar_Text.Name = "SearchBar_Text"
         Me.SearchBar_Text.Size = New System.Drawing.Size(295, 30)
         Me.SearchBar_Text.TabIndex = 3
@@ -1120,7 +1327,7 @@ Partial Class Catalog_Select_Menu
         Me.Product_DropBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Product_DropBox.FormattingEnabled = True
         Me.Product_DropBox.Items.AddRange(New Object() {"All", "Peripherals", "Components", "Accessories", "Laptops", "Pre Built PCs"})
-        Me.Product_DropBox.Location = New System.Drawing.Point(121, 11)
+        Me.Product_DropBox.Location = New System.Drawing.Point(118, 11)
         Me.Product_DropBox.Margin = New System.Windows.Forms.Padding(0)
         Me.Product_DropBox.Name = "Product_DropBox"
         Me.Product_DropBox.Size = New System.Drawing.Size(148, 30)
@@ -1134,7 +1341,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.870229!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.34096!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 148.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 155.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox2, 4, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox4, 3, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.SearchBar_Text, 2, 1)
@@ -1238,6 +1445,13 @@ Partial Class Catalog_Select_Menu
         CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
+        Me.TableLayoutPanel4.ResumeLayout(False)
+        Me.TableLayoutPanel6.ResumeLayout(False)
+        Me.TableLayoutPanel6.PerformLayout()
+        Me.TableLayoutPanel7.ResumeLayout(False)
+        Me.TableLayoutPanel7.PerformLayout()
+        Me.TableLayoutPanel5.ResumeLayout(False)
+        Me.TableLayoutPanel5.PerformLayout()
         Me.Footer_Main.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.TableLayoutPanel15.ResumeLayout(False)
@@ -1312,7 +1526,6 @@ Partial Class Catalog_Select_Menu
     Friend WithEvents Label30 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents Footer_Main As TableLayoutPanel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents TableLayoutPanel15 As TableLayoutPanel
@@ -1355,4 +1568,18 @@ Partial Class Catalog_Select_Menu
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents main_table As TableLayoutPanel
+    Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
+    Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
+    Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
+    Friend WithEvents Label1 As Label
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents CheckedListBox1 As CheckedListBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents CheckBox2 As CheckBox
 End Class

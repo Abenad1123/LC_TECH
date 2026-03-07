@@ -1,7 +1,6 @@
-﻿Imports System.Data
-Imports System.Data.SqlClient
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
-Public Class Main_Menu
+﻿Imports System.Data.SqlClient
+
+Public Class Reset_Password_Menu
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
         SetPlaceholder()
         Product_DropBox.SelectedIndex = 0
@@ -47,8 +46,43 @@ Public Class Main_Menu
     End Sub
 
     '------------ END OF INITIALIZATION ------------
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim Input_Email As String = TextBox1.Text
+        Dim Input_Old_Pass As String = TextBox2.Text
+        Dim Input_New_Pass As String = TextBox3.Text
 
-    Private Sub Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        FlowLayoutPanel2.Width = Panel4.ClientSize.Width
+        If ResetPassword(Input_Email, Input_Old_Pass, Input_New_Pass) Then
+            MsgBox("Password Changed Successfully!")
+        Else
+            MsgBox("Invalid Email or Old Password")
+        End If
+
     End Sub
+
+    Function ResetPassword(email As String, oldPassword As String, newPassword As String) As Boolean
+
+        Using con As New SqlConnection(Basic.UserConnectionString)
+
+            Dim query As String = "UPDATE Users SET Password = @NewPassword WHERE Email = @Email AND Password = @OldPassword"
+
+            Using cmd As New SqlCommand(query, con)
+
+                cmd.Parameters.AddWithValue("@Email", email)
+                cmd.Parameters.AddWithValue("@OldPassword", oldPassword)
+                cmd.Parameters.AddWithValue("@NewPassword", newPassword)
+
+                con.Open()
+
+                Dim rowsAffected As Integer = cmd.ExecuteNonQuery()
+
+                If rowsAffected > 0 Then
+                    Return True
+                Else
+                    Return False
+                End If
+
+            End Using
+        End Using
+
+    End Function
 End Class

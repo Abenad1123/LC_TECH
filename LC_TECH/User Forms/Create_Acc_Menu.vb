@@ -1,4 +1,7 @@
-﻿Public Class Create_Acc_Menu
+﻿Imports System.Data.SqlClient
+Imports System.Text.RegularExpressions
+
+Public Class Create_Acc_Menu
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
         SetPlaceholder()
         Product_DropBox.SelectedIndex = 0
@@ -46,6 +49,45 @@
 
     Private Sub Create_Acc_HoverL(sender As Object, e As EventArgs) Handles Label5.MouseLeave
         Label5.ForeColor = ColorTranslator.FromHtml("#000000")
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim Full_Name As String = TextBox1.Text
+
+        If Regex.IsMatch(Full_Name, "\d") Or Regex.IsMatch(Full_Name, "[^a-zA-Z0-9]") Then
+            MessageBox.Show("Name must not contain numbers or symbols.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Exit Sub
+        End If
+
+        Dim Username As String = TextBox2.Text
+        Dim User_Email As String = TextBox3.Text
+        Dim User_Password As String = TextBox4.Text
+
+        InsertUser(Full_Name, Username, User_Email, User_Password)
+        MsgBox("Account created successfully!")
+        OpenForm(Of Login_Menu)(Me)
+    End Sub
+
+    Sub InsertUser(fullname As String, username As String, email As String, password As String)
+
+        Using con As New SqlConnection(Basic.UserConnectionString)
+
+            Dim query As String = "INSERT INTO Users (Fullname, Username, Email, Password) VALUES (@fullname, @username, @email, @pass)"
+
+            Using cmd As New SqlCommand(query, con)
+
+                cmd.Parameters.AddWithValue("@fullname", fullname)
+                cmd.Parameters.AddWithValue("@username", username)
+                cmd.Parameters.AddWithValue("@email", email)
+                cmd.Parameters.AddWithValue("@pass", password)
+
+                con.Open()
+                cmd.ExecuteNonQuery()
+                con.Close()
+
+            End Using
+        End Using
+
     End Sub
 
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click

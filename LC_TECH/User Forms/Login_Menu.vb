@@ -1,4 +1,7 @@
-﻿Public Class Login_Menu
+﻿Imports System.Data.SqlClient
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel
+
+Public Class Login_Menu
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
         SetPlaceholder()
         Product_DropBox.SelectedIndex = 0
@@ -51,5 +54,53 @@
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
         OpenForm(Of Create_Acc_Menu)(Me)
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim Input_Email As String = TextBox1.Text
+        Dim Input_Password As String = TextBox2.Text
+
+        If CheckLogin(Input_Email, Input_Password) Then
+            MessageBox.Show("Login Successful!")
+            User.User_Login = True
+            OpenForm(Of Main_Menu)(Me)
+        Else
+            MessageBox.Show("Invalid Email or Password!")
+        End If
+
+    End Sub
+
+    Function CheckLogin(userInput As String, password As String) As Boolean
+
+        Using con As New SqlConnection(Basic.UserConnectionString)
+
+            Dim query As String = "SELECT FullName, Username, Email, Password FROM Users 
+                                   WHERE (Username=@UserInput OR Email=@UserInput) AND Password=@Password"
+
+            Using cmd As New SqlCommand(query, con)
+
+                cmd.Parameters.AddWithValue("@UserInput", userInput)
+                cmd.Parameters.AddWithValue("@Password", password)
+
+                con.Open()
+
+                Using reader As SqlDataReader = cmd.ExecuteReader()
+
+                    If reader.Read() Then
+
+                        User.FullName = reader("FullName").ToString()
+                        User.UserName = reader("Username").ToString()
+                        User.Email = reader("Email").ToString()
+                        User.Password = reader("Password").ToString()
+
+                        Return True
+                    Else
+                        Return False
+                    End If
+
+                End Using
+            End Using
+        End Using
+    End Function
+
 End Class
 

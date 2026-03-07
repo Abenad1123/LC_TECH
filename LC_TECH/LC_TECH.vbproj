@@ -131,7 +131,21 @@
     <Compile Include="User Forms\Login_Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="User Forms\Reset_Password_Menu.Designer.vb">
+      <DependentUpon>Reset_Password_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Forms\Reset_Password_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Forms\User_Page_Menu.Designer.vb">
+      <DependentUpon>User_Page_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Forms\User_Page_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Variable Classes\Inital_Functions.vb" />
+    <Compile Include="Variable Classes\System_Variables.vb" />
+    <Compile Include="Variable Classes\User_Variables.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Management Forms\Admin_Login_Menu.resx">
@@ -160,6 +174,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User Forms\Login_Menu.resx">
       <DependentUpon>Login_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Forms\Reset_Password_Menu.resx">
+      <DependentUpon>Reset_Password_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Forms\User_Page_Menu.resx">
+      <DependentUpon>User_Page_Menu.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -230,6 +250,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Icons\VISAMC-350x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Icons\user_profile.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
