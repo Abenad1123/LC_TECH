@@ -2,8 +2,8 @@
 
 Public Class Catalog_Select_Menu
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
-        Product_DropBox.SelectedItem = User.Selected_Catalog
         SetPlaceholder()
+        Product_DropBox.SelectedIndex = 0
         Footer_Main.BackColor = ColorTranslator.FromHtml("#eae9ec")
         Panel3.BackColor = ColorTranslator.FromHtml("#565454")
     End Sub
@@ -40,10 +40,13 @@ Public Class Catalog_Select_Menu
         OpenForm(Of Main_Menu)(Me)
     End Sub
 
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        OpenForm(Of User_Cart_Menu)(Me)
+    End Sub
+
     Private Sub Product_DropBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Product_DropBox.SelectionChangeCommitted
         User.Selected_Catalog = Product_DropBox.SelectedItem.ToString()
         OpenForm(Of Catalog_Select_Menu)(Me)
-        LoadProducts(User.Selected_Catalog)
     End Sub
 
     '------------ END OF INITIALIZATION ------------

@@ -137,6 +137,12 @@
     <Compile Include="User Forms\Reset_Password_Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="User Forms\User_Cart_Menu.Designer.vb">
+      <DependentUpon>User_Cart_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Forms\User_Cart_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="User Forms\User_Page_Menu.Designer.vb">
       <DependentUpon>User_Page_Menu.vb</DependentUpon>
     </Compile>
@@ -177,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User Forms\Reset_Password_Menu.resx">
       <DependentUpon>Reset_Password_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Forms\User_Cart_Menu.resx">
+      <DependentUpon>User_Cart_Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Forms\User_Page_Menu.resx">
       <DependentUpon>User_Page_Menu.vb</DependentUpon>

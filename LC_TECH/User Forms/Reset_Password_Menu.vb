@@ -40,7 +40,11 @@ Public Class Reset_Password_Menu
         OpenForm(Of Main_Menu)(Me)
     End Sub
 
-    Private Sub Product_DropBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Product_DropBox.Enter
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        OpenForm(Of User_Cart_Menu)(Me)
+    End Sub
+
+    Private Sub Product_DropBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Product_DropBox.SelectionChangeCommitted
         User.Selected_Catalog = Product_DropBox.SelectedItem.ToString()
         OpenForm(Of Catalog_Select_Menu)(Me)
     End Sub

@@ -1,7 +1,4 @@
-﻿Imports System.Data
-Imports System.Data.SqlClient
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
-Public Class Main_Menu
+﻿Public Class User_Cart_Menu
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
         SetPlaceholder()
         Product_DropBox.SelectedIndex = 0
@@ -51,9 +48,4 @@ Public Class Main_Menu
     End Sub
 
     '------------ END OF INITIALIZATION ------------
-
-    Private Sub Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        FlowLayoutPanel2.Width = Panel4.ClientSize.Width
-    End Sub
-
 End Class
