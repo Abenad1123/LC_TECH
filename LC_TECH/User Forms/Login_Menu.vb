@@ -69,6 +69,11 @@ Public Class Login_Menu
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If Basic.Open_admin_login = 3 Then
+            OpenForm(Of Admin_Login_Menu)(Me)
+            Exit Sub
+        End If
+
         Dim Input_Email As String = TextBox1.Text
         Dim Input_Password As String = TextBox2.Text
 
@@ -84,7 +89,7 @@ Public Class Login_Menu
 
     Function CheckLogin(userInput As String, password As String) As Boolean
 
-        Using con As New SqlConnection(Basic.UserConnectionString)
+        Using con As New SqlConnection(Basic.conString)
 
             Dim query As String = "SELECT FullName, Username, Email, Password FROM Users 
                                    WHERE (Username=@UserInput OR Email=@UserInput) AND Password=@Password"
@@ -114,6 +119,8 @@ Public Class Login_Menu
             End Using
         End Using
     End Function
-
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        Basic.Open_admin_login += 1
+    End Sub
 End Class
 

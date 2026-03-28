@@ -2,8 +2,6 @@
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
         SetPlaceholder()
         Product_DropBox.SelectedIndex = 0
-        Footer_Main.BackColor = ColorTranslator.FromHtml("#eae9ec")
-        Panel3.BackColor = ColorTranslator.FromHtml("#565454")
     End Sub
 
     Private Sub Form_Shown_Standard(sender As Object, e As EventArgs) Handles MyBase.Shown

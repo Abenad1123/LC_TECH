@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Menu
 
 Public Class Catalog_Select_Menu
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -66,12 +67,12 @@ Public Class Catalog_Select_Menu
         ElseIf category = "Components" Then
             tableName = "LC_Components"
         ElseIf category = "Accessories" Then
-            tableName = "LC_Accesorries"
+            tableName = "LC_Accesories"
         End If
 
         Dim query As String = "SELECT ProductID, ProductName, Price FROM " & tableName
 
-        Using conn As New SqlConnection(Basic.ProductsInfoConnectionString)
+        Using conn As New SqlConnection(Basic.conString)
             Dim cmd As New SqlCommand(query, conn)
             conn.Open()
 
@@ -83,7 +84,7 @@ Public Class Catalog_Select_Menu
                 Dim name As String = reader("ProductName").ToString()
                 Dim price As Decimal = Convert.ToDecimal(reader("Price"))
 
-                CreateItemCard(id, name, price)
+                CreateItemCard(id, name, price, name)
 
             End While
 
@@ -91,7 +92,7 @@ Public Class Catalog_Select_Menu
 
     End Sub
 
-    Public Sub CreateItemCard(productID As Integer, productName As String, price As Decimal)
+    Public Sub CreateItemCard(productID As Integer, productName As String, price As Decimal, imageName As String)
 
         Dim card As New Panel
         card.Width = 180
@@ -101,12 +102,23 @@ Public Class Catalog_Select_Menu
 
         ' Picture
         Dim pic As New PictureBox
-        pic.Image = My.Resources.navigation_logo
         pic.Width = 160
         pic.Height = 100
         pic.Top = 10
         pic.Left = 10
         pic.SizeMode = PictureBoxSizeMode.Zoom
+
+        ' Load image from My.Resources using string name
+        Try
+            Dim img = My.Resources.ResourceManager.GetObject(imageName)
+            If img IsNot Nothing Then
+                pic.Image = CType(img, Image)
+            Else
+                pic.Image = My.Resources.navigation_logo ' fallback
+            End If
+        Catch ex As Exception
+            pic.Image = My.Resources.navigation_logo ' fallback
+        End Try
 
         ' Name
         Dim lblName As New Label
@@ -124,14 +136,21 @@ Public Class Catalog_Select_Menu
         lblPrice.Width = 160
         lblPrice.ForeColor = Color.Green
 
-        ' Add to Cart Button
+        ' Button
         Dim btnAdd As New Button
         btnAdd.Text = "Add to Cart"
         btnAdd.Width = 160
         btnAdd.Height = 30
         btnAdd.Top = 175
         btnAdd.Left = 10
-        btnAdd.Tag = productID
+        Dim item As New CartItem With {
+            .productID = productID,
+            .productName = productName,
+            .price = price,
+            .Quantity = 1
+        }
+
+        btnAdd.Tag = item
 
         AddHandler btnAdd.Click, AddressOf AddToCart_Click
 
@@ -147,9 +166,17 @@ Public Class Catalog_Select_Menu
     Private Sub AddToCart_Click(sender As Object, e As EventArgs)
 
         Dim btn As Button = CType(sender, Button)
-        Dim productID As Integer = CInt(btn.Tag)
+        Dim newItem As CartItem = CType(btn.Tag, CartItem)
 
-        MessageBox.Show("Product added to cart! ID: " & productID)
+        Dim existingItem = User.Cart.FirstOrDefault(Function(x) x.ProductID = newItem.ProductID)
+
+        If existingItem IsNot Nothing Then
+            existingItem.Quantity += 1
+        Else
+            User.Cart.Add(newItem)
+        End If
+
+        MessageBox.Show("Added to cart: " & newItem.ProductName)
 
     End Sub
 

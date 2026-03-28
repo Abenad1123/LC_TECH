@@ -83,7 +83,7 @@ Public Class Create_Acc_Menu
 
     Sub InsertUser(fullname As String, username As String, email As String, password As String)
 
-        Using con As New SqlConnection(Basic.UserConnectionString)
+        Using con As New SqlConnection(Basic.conString)
 
             Dim query As String = "INSERT INTO Users (Fullname, Username, Email, Password) VALUES (@fullname, @username, @email, @pass)"
 

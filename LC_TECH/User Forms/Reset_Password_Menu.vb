@@ -65,7 +65,7 @@ Public Class Reset_Password_Menu
 
     Function ResetPassword(email As String, oldPassword As String, newPassword As String) As Boolean
 
-        Using con As New SqlConnection(Basic.UserConnectionString)
+        Using con As New SqlConnection(Basic.conString)
 
             Dim query As String = "UPDATE Users SET Password = @NewPassword WHERE Email = @Email AND Password = @OldPassword"
 

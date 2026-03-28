@@ -143,6 +143,226 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property LC_100__Keyboard__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC 100% Keyboard (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_100__Keyboard__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC 100% Keyboard (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_60__Keyboard__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC 60% Keyboard (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_60__Keyboard__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC 60% Keyboard (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_80__Keyboard__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC 80% Keyboard (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_80__Keyboard__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC 80% Keyboard (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Bluetooth_Mouse__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Bluetooth Mouse (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Bluetooth_Mouse__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Bluetooth Mouse (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Dual_Speakers() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Dual Speakers", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Dual_Speakers_2_0() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Dual Speakers 2.0", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Legion_Headset__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Legion Headset (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Legion_Headset__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Legion Headset (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Legion_PRO_Headset__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Legion PRO Headset (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Legion_PRO_Headset__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Legion PRO Headset (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Wired_Earphones__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Wired Earphones (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Wired_Earphones__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Wired Earphones (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Wired_Headphones__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Wired Headphones (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Wired_Headphones__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Wired Headphones (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Wired_Mouse__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Wired Mouse (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_Wired_Mouse__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC Wired Mouse (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_X_Superlight__Black_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC X Superlight (Black)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LC_X_Superlight__White_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LC X Superlight (White)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property list_solid_full() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("list-solid-full", resourceCulture)

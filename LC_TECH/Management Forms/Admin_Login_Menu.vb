@@ -1,5 +1,5 @@
 ﻿Public Class Admin_Login_Menu
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs)
         If Not User.User_Login Then
             OpenForm(Of Login_Menu)(Me)
         Else
@@ -11,9 +11,13 @@
         OpenForm(Of Main_Menu)(Me)
     End Sub
 
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs)
         OpenForm(Of User_Cart_Menu)(Me)
     End Sub
 
     '------------ END OF INITIALIZATION ------------
+
+    Private Sub Login_Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Button1.BackColor = ColorTranslator.FromHtml("#2626a6")
+    End Sub
 End Class

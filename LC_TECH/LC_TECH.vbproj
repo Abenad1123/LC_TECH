@@ -263,5 +263,71 @@
   <ItemGroup>
     <None Include="Assets\Icons\user_profile.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC 60%25 Keyboard %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC 60%25 Keyboard %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC 80%25 Keyboard %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC 80%25 Keyboard %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC 100%25 Keyboard %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC 100%25 Keyboard %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Bluetooth Mouse %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Bluetooth Mouse %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Dual Speakers 2.0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Dual Speakers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Legion Headset %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Legion Headset %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Legion PRO Headset %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Legion PRO Headset %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Wired Earphones %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Wired Earphones %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Wired Headphones %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Wired Headphones %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Wired Mouse %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC Wired Mouse %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC X Superlight %28Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\LC X Superlight %28White%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
