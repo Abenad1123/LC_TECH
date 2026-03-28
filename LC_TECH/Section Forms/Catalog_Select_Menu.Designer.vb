@@ -282,7 +282,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 1
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(446, 92)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(445, 92)
         Me.TableLayoutPanel29.TabIndex = 9
         '
         'PictureBox36
@@ -310,7 +310,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel27.Name = "TableLayoutPanel27"
         Me.TableLayoutPanel27.RowCount = 1
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel27.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel27.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel27.TabIndex = 6
         '
         'PictureBox34
@@ -338,7 +338,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel28.Name = "TableLayoutPanel28"
         Me.TableLayoutPanel28.RowCount = 1
         Me.TableLayoutPanel28.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel28.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel28.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel28.TabIndex = 8
         '
         'PictureBox35
@@ -378,7 +378,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel26.RowCount = 1
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel26.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel26.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel26.TabIndex = 7
         '
         'PictureBox33
@@ -401,7 +401,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel25.Controls.Add(Me.Label35, 1, 0)
         Me.TableLayoutPanel25.Controls.Add(Me.PictureBox32, 0, 0)
         Me.TableLayoutPanel25.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel25.Location = New System.Drawing.Point(912, 147)
+        Me.TableLayoutPanel25.Location = New System.Drawing.Point(911, 147)
         Me.TableLayoutPanel25.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel25.Name = "TableLayoutPanel25"
         Me.TableLayoutPanel25.RowCount = 1
@@ -429,7 +429,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel24.Controls.Add(Me.Label36, 1, 0)
         Me.TableLayoutPanel24.Controls.Add(Me.PictureBox31, 0, 0)
         Me.TableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel24.Location = New System.Drawing.Point(912, 221)
+        Me.TableLayoutPanel24.Location = New System.Drawing.Point(911, 221)
         Me.TableLayoutPanel24.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel24.Name = "TableLayoutPanel24"
         Me.TableLayoutPanel24.RowCount = 1
@@ -468,7 +468,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel22.Controls.Add(Me.Label34, 1, 0)
         Me.TableLayoutPanel22.Controls.Add(Me.PictureBox29, 0, 0)
         Me.TableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel22.Location = New System.Drawing.Point(912, 55)
+        Me.TableLayoutPanel22.Location = New System.Drawing.Point(911, 55)
         Me.TableLayoutPanel22.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel22.Name = "TableLayoutPanel22"
         Me.TableLayoutPanel22.RowCount = 1
@@ -496,7 +496,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel23.Controls.Add(Me.Label23, 1, 0)
         Me.TableLayoutPanel23.Controls.Add(Me.PictureBox30, 0, 0)
         Me.TableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel23.Location = New System.Drawing.Point(912, 295)
+        Me.TableLayoutPanel23.Location = New System.Drawing.Point(911, 295)
         Me.TableLayoutPanel23.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel23.Name = "TableLayoutPanel23"
         Me.TableLayoutPanel23.RowCount = 1
@@ -1007,7 +1007,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
-        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
+        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45.0!))
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel29, 1, 1)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel27, 1, 3)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel26, 1, 4)
@@ -1045,7 +1045,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel20.Controls.Add(Me.Label24, 1, 0)
         Me.TableLayoutPanel20.Controls.Add(Me.PictureBox28, 0, 0)
         Me.TableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel20.Location = New System.Drawing.Point(466, 295)
+        Me.TableLayoutPanel20.Location = New System.Drawing.Point(465, 295)
         Me.TableLayoutPanel20.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel20.Name = "TableLayoutPanel20"
         Me.TableLayoutPanel20.RowCount = 1
@@ -1085,7 +1085,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel21.Controls.Add(Me.Label30, 1, 0)
         Me.TableLayoutPanel21.Controls.Add(Me.PictureBox27, 0, 0)
         Me.TableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel21.Location = New System.Drawing.Point(466, 221)
+        Me.TableLayoutPanel21.Location = New System.Drawing.Point(465, 221)
         Me.TableLayoutPanel21.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel21.Name = "TableLayoutPanel21"
         Me.TableLayoutPanel21.RowCount = 1
@@ -1113,7 +1113,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel19.Controls.Add(Me.Label29, 1, 0)
         Me.TableLayoutPanel19.Controls.Add(Me.PictureBox26, 0, 0)
         Me.TableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel19.Location = New System.Drawing.Point(466, 147)
+        Me.TableLayoutPanel19.Location = New System.Drawing.Point(465, 147)
         Me.TableLayoutPanel19.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel19.Name = "TableLayoutPanel19"
         Me.TableLayoutPanel19.RowCount = 1
@@ -1139,7 +1139,7 @@ Partial Class Catalog_Select_Menu
         Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(915, 9)
+        Me.Label22.Location = New System.Drawing.Point(914, 9)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(113, 36)
         Me.Label22.TabIndex = 2
@@ -1151,7 +1151,7 @@ Partial Class Catalog_Select_Menu
         Me.Label21.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(469, 9)
+        Me.Label21.Location = New System.Drawing.Point(468, 9)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(150, 36)
         Me.Label21.TabIndex = 1
@@ -1176,7 +1176,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel18.Controls.Add(Me.Label28, 1, 0)
         Me.TableLayoutPanel18.Controls.Add(Me.PictureBox25, 0, 0)
         Me.TableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel18.Location = New System.Drawing.Point(466, 55)
+        Me.TableLayoutPanel18.Location = New System.Drawing.Point(465, 55)
         Me.TableLayoutPanel18.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel18.Name = "TableLayoutPanel18"
         Me.TableLayoutPanel18.RowCount = 1
@@ -1290,7 +1290,7 @@ Partial Class Catalog_Select_Menu
         Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
         Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
-        Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 33.0!))
+        Me.Payment_Methods.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 34.0!))
         Me.Payment_Methods.Controls.Add(Me.Label18, 1, 0)
         Me.Payment_Methods.Controls.Add(Me.Label19, 2, 0)
         Me.Payment_Methods.Dock = System.Windows.Forms.DockStyle.Bottom
@@ -1310,7 +1310,7 @@ Partial Class Catalog_Select_Menu
         Me.Label18.ForeColor = System.Drawing.SystemColors.ControlDark
         Me.Label18.Location = New System.Drawing.Point(23, 6)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(939, 44)
+        Me.Label18.Size = New System.Drawing.Size(934, 44)
         Me.Label18.TabIndex = 0
         Me.Label18.Tag = ""
         Me.Label18.Text = "Disclaimer : Product names and logos used in this website are for identification " &
@@ -1322,7 +1322,7 @@ Partial Class Catalog_Select_Menu
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.Label19.Location = New System.Drawing.Point(1148, 17)
+        Me.Label19.Location = New System.Drawing.Point(1146, 17)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(219, 22)
         Me.Label19.TabIndex = 1
@@ -1333,7 +1333,7 @@ Partial Class Catalog_Select_Menu
         Me.SearchBar_Text.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.SearchBar_Text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.SearchBar_Text.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SearchBar_Text.Location = New System.Drawing.Point(323, 14)
+        Me.SearchBar_Text.Location = New System.Drawing.Point(322, 14)
         Me.SearchBar_Text.Name = "SearchBar_Text"
         Me.SearchBar_Text.Size = New System.Drawing.Size(295, 30)
         Me.SearchBar_Text.TabIndex = 3
@@ -1345,7 +1345,7 @@ Partial Class Catalog_Select_Menu
         Me.Product_DropBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Product_DropBox.FormattingEnabled = True
         Me.Product_DropBox.Items.AddRange(New Object() {"All", "Peripherals", "Components", "Accessories", "Laptops", "Pre Built PCs"})
-        Me.Product_DropBox.Location = New System.Drawing.Point(114, 12)
+        Me.Product_DropBox.Location = New System.Drawing.Point(113, 11)
         Me.Product_DropBox.Margin = New System.Windows.Forms.Padding(0)
         Me.Product_DropBox.Name = "Product_DropBox"
         Me.Product_DropBox.Size = New System.Drawing.Size(148, 30)
@@ -1359,7 +1359,7 @@ Partial Class Catalog_Select_Menu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.870229!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.34096!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 171.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 172.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox2, 4, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.SearchBar_Text, 2, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox3, 1, 1)
@@ -1380,7 +1380,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox2.Image = Global.LC_TECH.My.Resources.Resources.cart_shopping_solid_full
-        Me.PictureBox2.Location = New System.Drawing.Point(925, 12)
+        Me.PictureBox2.Location = New System.Drawing.Point(923, 12)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(0)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(30, 30)
@@ -1392,7 +1392,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox3.Image = Global.LC_TECH.My.Resources.Resources.magnifying_glass_solid_full
-        Me.PictureBox3.Location = New System.Drawing.Point(287, 16)
+        Me.PictureBox3.Location = New System.Drawing.Point(286, 16)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(0, 0, 10, 0)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(23, 23)
@@ -1404,7 +1404,7 @@ Partial Class Catalog_Select_Menu
         '
         Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox4.Image = Global.LC_TECH.My.Resources.Resources.user_solid_full
-        Me.PictureBox4.Location = New System.Drawing.Point(850, 12)
+        Me.PictureBox4.Location = New System.Drawing.Point(848, 12)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(0, 0, 10, 0)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(30, 30)

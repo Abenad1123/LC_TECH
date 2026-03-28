@@ -49,6 +49,20 @@ Public Class Reset_Password_Menu
         OpenForm(Of Catalog_Select_Menu)(Me)
     End Sub
 
+    Private Sub txtSearch_KeyDown(sender As Object, e As KeyEventArgs) Handles SearchBar_Text.KeyDown
+        If e.KeyCode = Keys.Enter Then
+
+            Dim keyword As String = SearchBar_Text.Text.Trim()
+
+            If keyword <> "" Then
+                Catalog_Select_Menu.SearchKeyword = keyword
+                User.Selected_Catalog = "All"
+                OpenForm(Of Catalog_Select_Menu)(Me)
+            End If
+
+        End If
+    End Sub
+
     '------------ END OF INITIALIZATION ------------
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim Input_Email As String = TextBox1.Text

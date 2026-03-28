@@ -50,10 +50,23 @@ Public Class Main_Menu
         OpenForm(Of Catalog_Select_Menu)(Me)
     End Sub
 
-    '------------ END OF INITIALIZATION ------------
+    Private Sub txtSearch_KeyDown(sender As Object, e As KeyEventArgs) Handles SearchBar_Text.KeyDown
+        If e.KeyCode = Keys.Enter Then
 
-    Private Sub Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        FlowLayoutPanel2.Width = Panel4.ClientSize.Width
+            Dim keyword As String = SearchBar_Text.Text.Trim()
+
+            If keyword <> "" Then
+                Catalog_Select_Menu.SearchKeyword = keyword
+                User.Selected_Catalog = "All"
+                OpenForm(Of Catalog_Select_Menu)(Me)
+            End If
+
+        End If
+    End Sub
+
+    '------------ END OF INITIALIZATION ------------
+    Private Sub PictureBox12_Click(sender As Object, e As EventArgs)
+
     End Sub
 
 End Class

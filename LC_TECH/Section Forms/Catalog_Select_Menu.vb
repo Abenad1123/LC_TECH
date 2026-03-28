@@ -2,6 +2,8 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Menu
 
 Public Class Catalog_Select_Menu
+    Public Shared SearchKeyword As String
+
     Private Sub Form_Load_Standard(sender As Object, e As EventArgs) Handles MyBase.Load
         SetPlaceholder()
         Product_DropBox.SelectedIndex = 0
@@ -58,9 +60,19 @@ Public Class Catalog_Select_Menu
     End Sub
 
     Private Sub Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If String.IsNullOrEmpty(User.Selected_Catalog) Then
+            User.Selected_Catalog = "All"
+        End If
+
+        Product_DropBox.SelectedItem = User.Selected_Catalog
+
+        If Not String.IsNullOrEmpty(SearchKeyword) Then
+            SearchBar_Text.Text = SearchKeyword
+        End If
+
         LoadBrands(User.Selected_Catalog)
         ApplyFilters()
-
+        SearchKeyword = ""
     End Sub
 
     Public Sub LoadProducts(category As String)
@@ -149,9 +161,9 @@ Public Class Catalog_Select_Menu
         btnAdd.Top = 175
         btnAdd.Left = 10
         Dim item As New CartItem With {
-            .productID = productID,
-            .productName = productName,
-            .price = price,
+            .ProductID = productID,
+            .ProductName = productName,
+            .Price = price,
             .Quantity = 1
         }
 
@@ -189,9 +201,21 @@ Public Class Catalog_Select_Menu
 
         CheckedListBox1.Items.Clear()
 
-        Dim tableName As String = GetTableName(category)
+        Dim query As String = ""
 
-        Dim query As String = "SELECT DISTINCT Brand FROM " & tableName
+        If String.IsNullOrEmpty(category) OrElse category = "All" Then
+            query =
+        "SELECT DISTINCT Brand FROM (" &
+        "SELECT Brand FROM LC_Peripherals " &
+        "UNION " &
+        "SELECT Brand FROM LC_Components " &
+        "UNION " &
+        "SELECT Brand FROM LC_Accesories" &
+        ") AS AllBrands"
+        Else
+            Dim tableName As String = GetTableName(category)
+            query = "SELECT DISTINCT Brand FROM " & tableName
+        End If
 
         Using conn As New SqlConnection(Basic.conString)
             Dim cmd As New SqlCommand(query, conn)
@@ -214,6 +238,7 @@ Public Class Catalog_Select_Menu
         ElseIf category = "Accessories" Then
             Return "LC_Accesories"
         End If
+
         Return ""
     End Function
 
@@ -221,9 +246,21 @@ Public Class Catalog_Select_Menu
 
         FlowLayoutPanel1.Controls.Clear()
 
-        Dim tableName As String = GetTableName(User.Selected_Catalog)
+        Dim baseQuery As String = ""
 
-        Dim query As String = "SELECT ProductID, ProductName, Price, SKU FROM " & tableName & " WHERE 1=1"
+        If String.IsNullOrEmpty(User.Selected_Catalog) OrElse User.Selected_Catalog = "All" Then
+            baseQuery =
+            "SELECT ProductID, ProductName, Price, SKU, Brand FROM LC_Peripherals " &
+            "UNION ALL " &
+            "SELECT ProductID, ProductName, Price, SKU, Brand FROM LC_Components " &
+            "UNION ALL " &
+            "SELECT ProductID, ProductName, Price, SKU, Brand FROM LC_Accesories"
+        Else
+            Dim tableName As String = GetTableName(User.Selected_Catalog)
+            baseQuery = "SELECT ProductID, ProductName, Price, SKU, Brand FROM " & tableName
+        End If
+
+        Dim query As String = "SELECT * FROM (" & baseQuery & ") AS AllProducts WHERE 1=1"
 
         Dim cmd As New SqlCommand()
 
@@ -253,9 +290,17 @@ Public Class Catalog_Select_Menu
         End If
 
         ' 🔹 Search Filter
-        If Not String.IsNullOrWhiteSpace(SearchBar_Text.Text) AndAlso SearchBar_Text.Text <> " Search for products" Then
+        Dim keyword As String = ""
+
+        If Not String.IsNullOrEmpty(SearchKeyword) Then
+            keyword = SearchKeyword
+        Else
+            keyword = SearchBar_Text.Text.Trim()
+        End If
+
+        If keyword <> "" AndAlso keyword.ToLower() <> "search for products" Then
             query &= " AND ProductName LIKE @search"
-            cmd.Parameters.AddWithValue("@search", "%" & SearchBar_Text.Text & "%")
+            cmd.Parameters.AddWithValue("@search", "%" & keyword & "%")
         End If
 
         cmd.CommandText = query
