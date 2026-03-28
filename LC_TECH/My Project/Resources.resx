@@ -118,56 +118,128 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="list-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\list-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MS-LC-X-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MS-LC-X-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\user-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HS-LC-GN-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\HS-LC-GN-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\user_profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="VISAMC-350x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\VISAMC-350x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="calendar-days-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\calendar-days-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clock-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\clock-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cart-shopping-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\cart-shopping-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="navigation logo full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\navigation logo full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phone-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\phone-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user-solid-full1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\user-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\image-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\maya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="headset-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\headset-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="navigation_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\navigation logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="billease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\billease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wallet-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\wallet-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MON-AS-24144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-AS-24144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-AS-24240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-AS-24240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EP-LC-WE-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\EP-LC-WE-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-VS-24240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-VS-24240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PCX-DPO-DPS-300x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\PCX-DPO-DPS-300x500.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mobile-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\mobile-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-GM-27240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-GM-27240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\user-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SP-LC-DS01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\SP-LC-DS01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\maya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart-shopping-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\cart-shopping-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-VS-27240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-VS-27240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KB-LC-60-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\KB-LC-60-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VISAMC-350x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\VISAMC-350x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-VS-24144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-VS-24144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MS-LC-WD-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MS-LC-WD-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SP-LC-DS02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\SP-LC-DS02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navigation_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\navigation logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MS-LC-BT-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MS-LC-BT-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MS-LC-WD-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MS-LC-WD-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-GM-24144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-GM-24144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EP-LC-WE-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\EP-LC-WE-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle-arrow-right-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\circle-arrow-right-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KB-LC-100-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\KB-LC-100-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HS-LC-PRO-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\HS-LC-PRO-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clock-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\clock-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-GM-24240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-GM-24240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\image-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-AS-27240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-AS-27240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MON-GM-27144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-GM-27144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-solid-full1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\user-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\phone-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="magnifying-glass-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\magnifying-glass-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\user_profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HS-LC-GN-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\HS-LC-GN-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-days-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\calendar-days-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\list-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="map-location-dot-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\map-location-dot-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,79 +247,223 @@
   <data name="gcash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\gcash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="circle-arrow-right-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\circle-arrow-right-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MON-VS-27144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-VS-27144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mobile-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\mobile-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MS-LC-BT-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MS-LC-BT-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="billease" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\billease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MS-LC-X-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MS-LC-X-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC 60% Keyboard (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC 60% Keyboard (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="KB-LC-80-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\KB-LC-80-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC 60% Keyboard (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC 60% Keyboard (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="KB-LC-100-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\KB-LC-100-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC 80% Keyboard (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC 80% Keyboard (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HS-LC-WH-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\HS-LC-WH-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC 80% Keyboard (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC 80% Keyboard (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MON-AS-27144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\MON-AS-27144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC 100% Keyboard (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC 100% Keyboard (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HS-LC-WH-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\HS-LC-WH-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC 100% Keyboard (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC 100% Keyboard (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="KB-LC-80-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\KB-LC-80-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Bluetooth Mouse (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Bluetooth Mouse (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="headset-solid-full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\headset-solid-full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Bluetooth Mouse (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Bluetooth Mouse (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="navigation logo full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\navigation logo full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Dual Speakers 2.0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Dual Speakers 2.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HS-LC-PRO-B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\HS-LC-PRO-B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Dual Speakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Dual Speakers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="KB-LC-60-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Peripherals\KB-LC-60-W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Legion Headset (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Legion Headset (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CASE-001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CASE-001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Legion Headset (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Legion Headset (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CASE-002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CASE-002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Legion PRO Headset (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Legion PRO Headset (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CASE-003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CASE-003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Legion PRO Headset (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Legion PRO Headset (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CASE-004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CASE-004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Wired Earphones (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Wired Earphones (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU-AMD-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-AMD-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Wired Earphones (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Wired Earphones (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU-AMD-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-AMD-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Wired Headphones (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Wired Headphones (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU-AMD-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-AMD-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Wired Headphones (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Wired Headphones (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU-AMD-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-AMD-04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Wired Mouse (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Wired Mouse (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU-AMD-05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-AMD-05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC Wired Mouse (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC Wired Mouse (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU-INT-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-INT-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC X Superlight (Black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC X Superlight (Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU-INT-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-INT-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LC X Superlight (White)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Product Image\Peripherals\LC X Superlight (White).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU-INT-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-INT-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CPU-INT-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-INT-04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CPU-INT-05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\CPU-INT-05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-AMD-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-AMD-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-AMD-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-AMD-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-AMD-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-AMD-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-AMD-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-AMD-04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-GIG-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-GIG-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-GIG-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-GIG-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-GIG-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-GIG-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-GIG-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-GIG-04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-NV-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-NV-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-NV-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-NV-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-NV-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-NV-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU-NV-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\GPU-NV-04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MB-ATX-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\MB-ATX-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MB-ATX-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\MB-ATX-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MB-ITX-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\MB-ITX-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MB-ITX-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\MB-ITX-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MB-MATX-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\MB-MATX-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MB-MATX-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\MB-MATX-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSU-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\PSU-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSU-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\PSU-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSU-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\PSU-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-COR-08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-COR-08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-COR-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-COR-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-COR-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-COR-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-COR-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-COR-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-GSK-08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-GSK-08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-GSK-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-GSK-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-GSK-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-GSK-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-GSK-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-GSK-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-KIN-08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-KIN-08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-KIN-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-KIN-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-KIN-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-KIN-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-KIN-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-KIN-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-TG-08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-TG-08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-TG-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-TG-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-TG-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-TG-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RAM-TG-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\RAM-TG-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-1TB-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-1TB-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-1TB-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-1TB-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-1TB-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-1TB-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-256-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-256-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-256-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-256-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-256-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-256-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-500-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-500-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-500-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-500-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STO-500-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Product Image\Components\STO-500-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

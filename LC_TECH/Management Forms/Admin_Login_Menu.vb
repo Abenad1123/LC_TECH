@@ -20,4 +20,10 @@
     Private Sub Login_Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Button1.BackColor = ColorTranslator.FromHtml("#2626a6")
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If (TextBox1.Text = "admin" And TextBox2.Text = "pass") Then
+            OpenForm(Of Product_Control_Menu)(Me)
+        End If
+    End Sub
 End Class

@@ -31,21 +31,22 @@ Partial Class Product_Control_Menu
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
@@ -58,6 +59,7 @@ Partial Class Product_Control_Menu
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel5.SuspendLayout()
         Me.TableLayoutPanel6.SuspendLayout()
+        Me.TableLayoutPanel7.SuspendLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
@@ -83,7 +85,7 @@ Partial Class Product_Control_Menu
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Margin = New System.Windows.Forms.Padding(0)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1403, 1920)
+        Me.Panel4.Size = New System.Drawing.Size(1403, 1500)
         Me.Panel4.TabIndex = 2
         '
         'TableLayoutPanel3
@@ -103,7 +105,7 @@ Partial Class Product_Control_Menu
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1403, 1920)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1403, 1500)
         Me.TableLayoutPanel3.TabIndex = 0
         '
         'TableLayoutPanel4
@@ -120,7 +122,7 @@ Partial Class Product_Control_Menu
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 940.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(1304, 940)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(1304, 730)
         Me.TableLayoutPanel4.TabIndex = 0
         '
         'DataGridView1
@@ -132,7 +134,7 @@ Partial Class Product_Control_Menu
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(1037, 934)
+        Me.DataGridView1.Size = New System.Drawing.Size(1037, 724)
         Me.DataGridView1.TabIndex = 0
         '
         'TableLayoutPanel5
@@ -141,18 +143,20 @@ Partial Class Product_Control_Menu
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel5.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.ComboBox1, 0, 1)
+        Me.TableLayoutPanel5.Controls.Add(Me.Button2, 0, 2)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel5.Location = New System.Drawing.Point(1043, 0)
         Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
-        Me.TableLayoutPanel5.RowCount = 6
+        Me.TableLayoutPanel5.RowCount = 7
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(261, 940)
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(261, 730)
         Me.TableLayoutPanel5.TabIndex = 1
         '
         'Label1
@@ -171,194 +175,208 @@ Partial Class Product_Control_Menu
         '
         Me.ComboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"All", "Peripherals", "Components", "Accessories", "Laptops", "Pre Built PCs"})
         Me.ComboBox1.Location = New System.Drawing.Point(13, 53)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(235, 29)
         Me.ComboBox1.TabIndex = 1
         '
+        'Button2
+        '
+        Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Button2.Location = New System.Drawing.Point(25, 128)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(211, 44)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "Remove Item"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'TableLayoutPanel6
         '
         Me.TableLayoutPanel6.ColumnCount = 2
-        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.0!))
-        Me.TableLayoutPanel6.Controls.Add(Me.Label2, 0, 1)
-        Me.TableLayoutPanel6.Controls.Add(Me.Label3, 0, 2)
-        Me.TableLayoutPanel6.Controls.Add(Me.Label4, 0, 3)
-        Me.TableLayoutPanel6.Controls.Add(Me.Label5, 0, 4)
-        Me.TableLayoutPanel6.Controls.Add(Me.Label6, 0, 5)
-        Me.TableLayoutPanel6.Controls.Add(Me.Label7, 0, 6)
-        Me.TableLayoutPanel6.Controls.Add(Me.Label8, 0, 7)
-        Me.TableLayoutPanel6.Controls.Add(Me.TextBox1, 1, 1)
-        Me.TableLayoutPanel6.Controls.Add(Me.TextBox2, 1, 2)
-        Me.TableLayoutPanel6.Controls.Add(Me.NumericUpDown1, 1, 4)
-        Me.TableLayoutPanel6.Controls.Add(Me.TextBox3, 1, 5)
-        Me.TableLayoutPanel6.Controls.Add(Me.ComboBox2, 1, 3)
-        Me.TableLayoutPanel6.Controls.Add(Me.TextBox4, 1, 6)
-        Me.TableLayoutPanel6.Controls.Add(Me.TextBox5, 1, 7)
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel6.Controls.Add(Me.TableLayoutPanel7, 0, 0)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel6.Location = New System.Drawing.Point(50, 960)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(50, 750)
         Me.TableLayoutPanel6.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
-        Me.TableLayoutPanel6.RowCount = 9
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.770833!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.979167!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.666667!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.875!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.854167!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.97917!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.229167!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.4375!))
-        Me.TableLayoutPanel6.Size = New System.Drawing.Size(1304, 940)
+        Me.TableLayoutPanel6.RowCount = 1
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(1304, 730)
         Me.TableLayoutPanel6.TabIndex = 1
+        '
+        'TableLayoutPanel7
+        '
+        Me.TableLayoutPanel7.ColumnCount = 4
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.0!))
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.0!))
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.0!))
+        Me.TableLayoutPanel7.Controls.Add(Me.Label2, 0, 1)
+        Me.TableLayoutPanel7.Controls.Add(Me.TextBox2, 1, 2)
+        Me.TableLayoutPanel7.Controls.Add(Me.Label3, 0, 2)
+        Me.TableLayoutPanel7.Controls.Add(Me.Label7, 0, 3)
+        Me.TableLayoutPanel7.Controls.Add(Me.TextBox4, 1, 3)
+        Me.TableLayoutPanel7.Controls.Add(Me.Label5, 2, 1)
+        Me.TableLayoutPanel7.Controls.Add(Me.NumericUpDown1, 3, 1)
+        Me.TableLayoutPanel7.Controls.Add(Me.Label6, 2, 2)
+        Me.TableLayoutPanel7.Controls.Add(Me.TextBox3, 3, 2)
+        Me.TableLayoutPanel7.Controls.Add(Me.TextBox1, 1, 1)
+        Me.TableLayoutPanel7.Controls.Add(Me.Button1, 2, 4)
+        Me.TableLayoutPanel7.Controls.Add(Me.Label8, 2, 3)
+        Me.TableLayoutPanel7.Controls.Add(Me.ComboBox4, 3, 3)
+        Me.TableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel7.Margin = New System.Windows.Forms.Padding(0)
+        Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
+        Me.TableLayoutPanel7.RowCount = 7
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 95.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 95.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 105.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(652, 730)
+        Me.TableLayoutPanel7.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(139, 120)
+        Me.Label2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(7, 105)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(184, 29)
+        Me.Label2.Size = New System.Drawing.Size(153, 24)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Product Name"
-        '
-        'Label3
-        '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(260, 184)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(63, 29)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = "SKU"
-        '
-        'Label4
-        '
-        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(252, 247)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(71, 29)
-        Me.Label4.TabIndex = 2
-        Me.Label4.Text = "Type"
-        '
-        'Label5
-        '
-        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(250, 310)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(73, 29)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Price"
-        '
-        'Label6
-        '
-        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(240, 383)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(83, 29)
-        Me.Label6.TabIndex = 4
-        Me.Label6.Text = "Brand"
-        '
-        'Label7
-        '
-        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(174, 503)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(149, 29)
-        Me.Label7.TabIndex = 5
-        Me.Label7.Text = "Description"
-        '
-        'Label8
-        '
-        Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(155, 620)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(168, 29)
-        Me.Label8.TabIndex = 6
-        Me.Label8.Text = "Image Name"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(329, 116)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(326, 36)
-        Me.TextBox1.TabIndex = 7
         '
         'TextBox2
         '
         Me.TextBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox2.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(329, 180)
+        Me.TextBox2.Location = New System.Drawing.Point(166, 194)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(326, 36)
+        Me.TextBox2.Size = New System.Drawing.Size(176, 36)
         Me.TextBox2.TabIndex = 8
         '
-        'NumericUpDown1
+        'Label3
         '
-        Me.NumericUpDown1.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.NumericUpDown1.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown1.Location = New System.Drawing.Point(329, 307)
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(346, 36)
-        Me.NumericUpDown1.TabIndex = 9
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(108, 200)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(52, 24)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "SKU"
         '
-        'TextBox3
+        'Label7
         '
-        Me.TextBox3.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(329, 380)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(326, 36)
-        Me.TextBox3.TabIndex = 10
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.ComboBox2.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(329, 244)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(347, 36)
-        Me.ComboBox2.TabIndex = 11
+        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(35, 300)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(125, 24)
+        Me.Label7.TabIndex = 5
+        Me.Label7.Text = "Description"
         '
         'TextBox4
         '
         Me.TextBox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox4.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(329, 451)
+        Me.TextBox4.Location = New System.Drawing.Point(166, 263)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(533, 134)
+        Me.TextBox4.Size = New System.Drawing.Size(176, 99)
         Me.TextBox4.TabIndex = 12
         '
-        'TextBox5
+        'Label5
         '
-        Me.TextBox5.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox5.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(329, 617)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(326, 36)
-        Me.TextBox5.TabIndex = 13
+        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(391, 105)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(61, 24)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "Price"
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.NumericUpDown1.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NumericUpDown1.Location = New System.Drawing.Point(458, 99)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(191, 36)
+        Me.NumericUpDown1.TabIndex = 9
+        '
+        'Label6
+        '
+        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(381, 200)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(71, 24)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "Brand"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox3.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(458, 194)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(191, 36)
+        Me.TextBox3.TabIndex = 10
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(166, 99)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(176, 36)
+        Me.TextBox1.TabIndex = 7
+        '
+        'Button1
+        '
+        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TableLayoutPanel7.SetColumnSpan(Me.Button1, 4)
+        Me.Button1.Font = New System.Drawing.Font("Tahoma", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(209, 388)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(233, 44)
+        Me.Button1.TabIndex = 14
+        Me.Button1.Text = "Add Item"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(351, 300)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(101, 24)
+        Me.Label8.TabIndex = 17
+        Me.Label8.Text = "Category"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.ComboBox4.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Location = New System.Drawing.Point(458, 294)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(191, 36)
+        Me.ComboBox4.TabIndex = 16
         '
         'Panel1
         '
@@ -380,7 +398,7 @@ Partial Class Product_Control_Menu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.870229!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.34096!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 158.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 161.0!))
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(327, 0)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(0, 0, 0, 1)
@@ -457,7 +475,8 @@ Partial Class Product_Control_Menu
         Me.TableLayoutPanel5.ResumeLayout(False)
         Me.TableLayoutPanel5.PerformLayout()
         Me.TableLayoutPanel6.ResumeLayout(False)
-        Me.TableLayoutPanel6.PerformLayout()
+        Me.TableLayoutPanel7.ResumeLayout(False)
+        Me.TableLayoutPanel7.PerformLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
@@ -479,19 +498,20 @@ Partial Class Product_Control_Menu
     Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
     Friend WithEvents Label1 As Label
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Button2 As Button
     Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
+    Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents NumericUpDown1 As NumericUpDown
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label7 As Label
     Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents NumericUpDown1 As NumericUpDown
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label8 As Label
+    Friend WithEvents ComboBox4 As ComboBox
 End Class

@@ -85,12 +85,6 @@
     <Compile Include="Management Forms\Product_Control_Menu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Management Forms\Stock_Control_Menu.Designer.vb">
-      <DependentUpon>Stock_Control_Menu.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Management Forms\Stock_Control_Menu.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -149,6 +143,12 @@
     <Compile Include="User Forms\User_Page_Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="User Forms\User_Checkout_Menu.Designer.vb">
+      <DependentUpon>User_Checkout_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Forms\User_Checkout_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Variable Classes\Inital_Functions.vb" />
     <Compile Include="Variable Classes\System_Variables.vb" />
     <Compile Include="Variable Classes\User_Variables.vb" />
@@ -159,9 +159,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Management Forms\Product_Control_Menu.resx">
       <DependentUpon>Product_Control_Menu.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Management Forms\Stock_Control_Menu.resx">
-      <DependentUpon>Stock_Control_Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -189,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User Forms\User_Page_Menu.resx">
       <DependentUpon>User_Page_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Forms\User_Checkout_Menu.resx">
+      <DependentUpon>User_Checkout_Menu.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -328,6 +328,288 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Product Image\Peripherals\LC X Superlight %28White%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\EP-LC-WE-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\EP-LC-WE-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\HS-LC-GN-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\HS-LC-GN-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\HS-LC-PRO-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\HS-LC-PRO-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\HS-LC-WH-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\HS-LC-WH-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\KB-LC-60-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\KB-LC-60-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\KB-LC-80-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\KB-LC-80-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\KB-LC-100-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\KB-LC-100-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-AS-24144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-AS-24240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-AS-27144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-AS-27240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-GM-24144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-GM-24240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-GM-27144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-GM-27240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-VS-24144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-VS-24240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-VS-27144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MON-VS-27240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MS-LC-BT-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MS-LC-BT-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MS-LC-WD-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MS-LC-WD-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MS-LC-X-B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\MS-LC-X-W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\SP-LC-DS01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Peripherals\SP-LC-DS02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CASE-001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CASE-002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CASE-003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CASE-004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-AMD-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-AMD-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-AMD-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-AMD-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-AMD-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-INT-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-INT-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-INT-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-INT-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\CPU-INT-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-AMD-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-AMD-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-AMD-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-AMD-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-GIG-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-GIG-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-GIG-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-GIG-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-NV-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-NV-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-NV-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\GPU-NV-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\MB-ATX-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\MB-ATX-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\MB-ITX-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\MB-ITX-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\MB-MATX-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\MB-MATX-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\PSU-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\PSU-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\PSU-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-COR-08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-COR-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-COR-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-COR-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-GSK-08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-GSK-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-GSK-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-GSK-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-KIN-08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-KIN-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-KIN-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-KIN-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-TG-08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-TG-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-TG-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\RAM-TG-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-1TB-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-1TB-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-1TB-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-256-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-256-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-256-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-500-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-500-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Product Image\Components\STO-500-03.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

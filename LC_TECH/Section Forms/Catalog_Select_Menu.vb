@@ -52,8 +52,15 @@ Public Class Catalog_Select_Menu
 
     '------------ END OF INITIALIZATION ------------
 
+    Private Sub FilterTimer_Tick(sender As Object, e As EventArgs) Handles FilterTimer.Tick
+        FilterTimer.Stop()
+        ApplyFilters()
+    End Sub
+
     Private Sub Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        LoadProducts(User.Selected_Catalog)
+        LoadBrands(User.Selected_Catalog)
+        ApplyFilters()
+
     End Sub
 
     Public Sub LoadProducts(category As String)
@@ -70,7 +77,7 @@ Public Class Catalog_Select_Menu
             tableName = "LC_Accesories"
         End If
 
-        Dim query As String = "SELECT ProductID, ProductName, Price FROM " & tableName
+        Dim query As String = "SELECT ProductID, ProductName, Price, SKU FROM " & tableName
 
         Using conn As New SqlConnection(Basic.conString)
             Dim cmd As New SqlCommand(query, conn)
@@ -83,8 +90,9 @@ Public Class Catalog_Select_Menu
                 Dim id As Integer = Convert.ToInt32(reader("ProductID"))
                 Dim name As String = reader("ProductName").ToString()
                 Dim price As Decimal = Convert.ToDecimal(reader("Price"))
+                Dim imageName As String = reader("SKU").ToString()
 
-                CreateItemCard(id, name, price, name)
+                CreateItemCard(id, name, price, imageName)
 
             End While
 
@@ -100,7 +108,6 @@ Public Class Catalog_Select_Menu
         card.BorderStyle = BorderStyle.FixedSingle
         card.Margin = New Padding(10)
 
-        ' Picture
         Dim pic As New PictureBox
         pic.Width = 160
         pic.Height = 100
@@ -108,19 +115,17 @@ Public Class Catalog_Select_Menu
         pic.Left = 10
         pic.SizeMode = PictureBoxSizeMode.Zoom
 
-        ' Load image from My.Resources using string name
         Try
             Dim img = My.Resources.ResourceManager.GetObject(imageName)
             If img IsNot Nothing Then
                 pic.Image = CType(img, Image)
             Else
-                pic.Image = My.Resources.navigation_logo ' fallback
+                pic.Image = My.Resources.navigation_logo
             End If
         Catch ex As Exception
-            pic.Image = My.Resources.navigation_logo ' fallback
+            pic.Image = My.Resources.navigation_logo
         End Try
 
-        ' Name
         Dim lblName As New Label
         lblName.Text = productName
         lblName.Top = 120
@@ -180,4 +185,119 @@ Public Class Catalog_Select_Menu
 
     End Sub
 
+    Public Sub LoadBrands(category As String)
+
+        CheckedListBox1.Items.Clear()
+
+        Dim tableName As String = GetTableName(category)
+
+        Dim query As String = "SELECT DISTINCT Brand FROM " & tableName
+
+        Using conn As New SqlConnection(Basic.conString)
+            Dim cmd As New SqlCommand(query, conn)
+            conn.Open()
+
+            Dim reader = cmd.ExecuteReader()
+
+            While reader.Read()
+                CheckedListBox1.Items.Add(reader("Brand").ToString())
+            End While
+        End Using
+
+    End Sub
+
+    Private Function GetTableName(category As String) As String
+        If category = "Peripherals" Then
+            Return "LC_Peripherals"
+        ElseIf category = "Components" Then
+            Return "LC_Components"
+        ElseIf category = "Accessories" Then
+            Return "LC_Accesories"
+        End If
+        Return ""
+    End Function
+
+    Public Sub ApplyFilters()
+
+        FlowLayoutPanel1.Controls.Clear()
+
+        Dim tableName As String = GetTableName(User.Selected_Catalog)
+
+        Dim query As String = "SELECT ProductID, ProductName, Price, SKU FROM " & tableName & " WHERE 1=1"
+
+        Dim cmd As New SqlCommand()
+
+        ' 🔹 Brand Filter (multiple)
+        If CheckedListBox1.CheckedItems.Count > 0 Then
+            Dim brands As New List(Of String)
+
+            For i = 0 To CheckedListBox1.CheckedItems.Count - 1
+                brands.Add("@brand" & i)
+                cmd.Parameters.AddWithValue("@brand" & i, CheckedListBox1.CheckedItems(i).ToString())
+            Next
+
+            query &= " AND Brand IN (" & String.Join(",", brands) & ")"
+        End If
+
+        ' 🔹 Price Filter
+        Dim minPrice As Decimal
+        If Decimal.TryParse(TextBox1.Text, minPrice) Then
+            query &= " AND Price >= @minPrice"
+            cmd.Parameters.AddWithValue("@minPrice", minPrice)
+        End If
+
+        Dim maxPrice As Decimal
+        If Decimal.TryParse(TextBox2.Text, maxPrice) Then
+            query &= " AND Price <= @maxPrice"
+            cmd.Parameters.AddWithValue("@maxPrice", maxPrice)
+        End If
+
+        ' 🔹 Search Filter
+        If Not String.IsNullOrWhiteSpace(SearchBar_Text.Text) AndAlso SearchBar_Text.Text <> " Search for products" Then
+            query &= " AND ProductName LIKE @search"
+            cmd.Parameters.AddWithValue("@search", "%" & SearchBar_Text.Text & "%")
+        End If
+
+        cmd.CommandText = query
+
+        Using conn As New SqlConnection(Basic.conString)
+            cmd.Connection = conn
+            conn.Open()
+
+            Dim reader = cmd.ExecuteReader()
+
+            While reader.Read()
+                CreateItemCard(
+                    CInt(reader("ProductID")),
+                    reader("ProductName").ToString(),
+                    CDec(reader("Price")),
+                    reader("SKU").ToString()
+                )
+            End While
+        End Using
+
+    End Sub
+
+    Private Sub CheckedListBox1_ItemCheck(sender As Object, e As ItemCheckEventArgs) Handles CheckedListBox1.ItemCheck
+        Me.BeginInvoke(New Action(AddressOf ApplyFilters))
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        StartFilterDelay()
+    End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+        StartFilterDelay()
+    End Sub
+
+    Private Sub StartFilterDelay()
+        FilterTimer.Stop()
+        FilterTimer.Start()
+    End Sub
+    Private Sub SearchBar_Text_KeyDown(sender As Object, e As KeyEventArgs) Handles SearchBar_Text.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            ApplyFilters()
+            e.SuppressKeyPress = True
+        End If
+    End Sub
 End Class

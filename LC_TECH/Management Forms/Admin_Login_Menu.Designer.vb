@@ -165,7 +165,7 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel26.RowCount = 1
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel26.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel26.Size = New System.Drawing.Size(444, 74)
         Me.TableLayoutPanel26.TabIndex = 7
         '
         'Label25
@@ -227,7 +227,7 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 1
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(446, 92)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(444, 92)
         Me.TableLayoutPanel29.TabIndex = 9
         '
         'Label31
@@ -262,12 +262,12 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel24.Controls.Add(Me.Label36, 1, 0)
         Me.TableLayoutPanel24.Controls.Add(Me.PictureBox31, 0, 0)
         Me.TableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel24.Location = New System.Drawing.Point(912, 221)
+        Me.TableLayoutPanel24.Location = New System.Drawing.Point(909, 221)
         Me.TableLayoutPanel24.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel24.Name = "TableLayoutPanel24"
         Me.TableLayoutPanel24.RowCount = 1
         Me.TableLayoutPanel24.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel24.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel24.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel24.TabIndex = 6
         '
         'Label36
@@ -312,12 +312,12 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel25.Controls.Add(Me.Label35, 1, 0)
         Me.TableLayoutPanel25.Controls.Add(Me.PictureBox32, 0, 0)
         Me.TableLayoutPanel25.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel25.Location = New System.Drawing.Point(912, 147)
+        Me.TableLayoutPanel25.Location = New System.Drawing.Point(909, 147)
         Me.TableLayoutPanel25.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel25.Name = "TableLayoutPanel25"
         Me.TableLayoutPanel25.RowCount = 1
         Me.TableLayoutPanel25.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel25.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel25.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel25.TabIndex = 5
         '
         'Label35
@@ -368,7 +368,7 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel27.Name = "TableLayoutPanel27"
         Me.TableLayoutPanel27.RowCount = 1
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel27.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel27.Size = New System.Drawing.Size(444, 74)
         Me.TableLayoutPanel27.TabIndex = 6
         '
         'Label33
@@ -414,12 +414,12 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel22.Controls.Add(Me.Label34, 1, 0)
         Me.TableLayoutPanel22.Controls.Add(Me.PictureBox29, 0, 0)
         Me.TableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel22.Location = New System.Drawing.Point(912, 55)
+        Me.TableLayoutPanel22.Location = New System.Drawing.Point(909, 55)
         Me.TableLayoutPanel22.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel22.Name = "TableLayoutPanel22"
         Me.TableLayoutPanel22.RowCount = 1
         Me.TableLayoutPanel22.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel22.Size = New System.Drawing.Size(446, 92)
+        Me.TableLayoutPanel22.Size = New System.Drawing.Size(445, 92)
         Me.TableLayoutPanel22.TabIndex = 4
         '
         'Label34
@@ -952,7 +952,7 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
-        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
+        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 48.0!))
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel29, 1, 1)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel27, 1, 3)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel26, 1, 4)
@@ -990,13 +990,13 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel20.Controls.Add(Me.Label24, 1, 0)
         Me.TableLayoutPanel20.Controls.Add(Me.PictureBox28, 0, 0)
         Me.TableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel20.Location = New System.Drawing.Point(466, 295)
+        Me.TableLayoutPanel20.Location = New System.Drawing.Point(464, 295)
         Me.TableLayoutPanel20.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel20.Name = "TableLayoutPanel20"
         Me.TableLayoutPanel20.RowCount = 1
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel20.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel20.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel20.TabIndex = 5
         '
         'TableLayoutPanel21
@@ -1007,12 +1007,12 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel21.Controls.Add(Me.Label30, 1, 0)
         Me.TableLayoutPanel21.Controls.Add(Me.PictureBox27, 0, 0)
         Me.TableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel21.Location = New System.Drawing.Point(466, 221)
+        Me.TableLayoutPanel21.Location = New System.Drawing.Point(464, 221)
         Me.TableLayoutPanel21.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel21.Name = "TableLayoutPanel21"
         Me.TableLayoutPanel21.RowCount = 1
         Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel21.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel21.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel21.TabIndex = 5
         '
         'TableLayoutPanel19
@@ -1023,13 +1023,13 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel19.Controls.Add(Me.Label29, 1, 0)
         Me.TableLayoutPanel19.Controls.Add(Me.PictureBox26, 0, 0)
         Me.TableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel19.Location = New System.Drawing.Point(466, 147)
+        Me.TableLayoutPanel19.Location = New System.Drawing.Point(464, 147)
         Me.TableLayoutPanel19.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel19.Name = "TableLayoutPanel19"
         Me.TableLayoutPanel19.RowCount = 1
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel19.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel19.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel19.TabIndex = 4
         '
         'Label22
@@ -1037,7 +1037,7 @@ Partial Class Admin_Login_Menu
         Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(915, 9)
+        Me.Label22.Location = New System.Drawing.Point(912, 9)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(113, 36)
         Me.Label22.TabIndex = 2
@@ -1049,7 +1049,7 @@ Partial Class Admin_Login_Menu
         Me.Label21.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(469, 9)
+        Me.Label21.Location = New System.Drawing.Point(467, 9)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(150, 36)
         Me.Label21.TabIndex = 1
@@ -1074,13 +1074,13 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel18.Controls.Add(Me.Label28, 1, 0)
         Me.TableLayoutPanel18.Controls.Add(Me.PictureBox25, 0, 0)
         Me.TableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel18.Location = New System.Drawing.Point(466, 55)
+        Me.TableLayoutPanel18.Location = New System.Drawing.Point(464, 55)
         Me.TableLayoutPanel18.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel18.Name = "TableLayoutPanel18"
         Me.TableLayoutPanel18.RowCount = 1
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 92.0!))
-        Me.TableLayoutPanel18.Size = New System.Drawing.Size(446, 92)
+        Me.TableLayoutPanel18.Size = New System.Drawing.Size(445, 92)
         Me.TableLayoutPanel18.TabIndex = 3
         '
         'TableLayoutPanel23
@@ -1091,12 +1091,12 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel23.Controls.Add(Me.Label23, 1, 0)
         Me.TableLayoutPanel23.Controls.Add(Me.PictureBox30, 0, 0)
         Me.TableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel23.Location = New System.Drawing.Point(912, 295)
+        Me.TableLayoutPanel23.Location = New System.Drawing.Point(909, 295)
         Me.TableLayoutPanel23.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel23.Name = "TableLayoutPanel23"
         Me.TableLayoutPanel23.RowCount = 1
         Me.TableLayoutPanel23.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel23.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel23.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel23.TabIndex = 7
         '
         'TableLayoutPanel28
@@ -1112,7 +1112,7 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel28.Name = "TableLayoutPanel28"
         Me.TableLayoutPanel28.RowCount = 1
         Me.TableLayoutPanel28.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel28.Size = New System.Drawing.Size(446, 74)
+        Me.TableLayoutPanel28.Size = New System.Drawing.Size(444, 74)
         Me.TableLayoutPanel28.TabIndex = 8
         '
         'Payment_Methods
@@ -1212,7 +1212,7 @@ Partial Class Admin_Login_Menu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.870229!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.34096!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 171.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 175.0!))
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(327, 0)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(0, 0, 0, 1)

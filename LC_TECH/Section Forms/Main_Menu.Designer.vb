@@ -428,7 +428,7 @@ Partial Class Main_Menu
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
         Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334!))
-        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel16.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45.0!))
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel29, 1, 1)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel27, 1, 3)
         Me.TableLayoutPanel16.Controls.Add(Me.TableLayoutPanel26, 1, 4)
@@ -471,7 +471,7 @@ Partial Class Main_Menu
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 1
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(448, 92)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(445, 92)
         Me.TableLayoutPanel29.TabIndex = 9
         '
         'Label31
@@ -479,7 +479,7 @@ Partial Class Main_Menu
         Me.Label31.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(70, 13)
+        Me.Label31.Location = New System.Drawing.Point(69, 13)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(298, 66)
         Me.Label31.TabIndex = 8
@@ -511,7 +511,7 @@ Partial Class Main_Menu
         Me.TableLayoutPanel27.Name = "TableLayoutPanel27"
         Me.TableLayoutPanel27.RowCount = 1
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel27.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel27.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel27.TabIndex = 6
         '
         'Label33
@@ -519,7 +519,7 @@ Partial Class Main_Menu
         Me.Label33.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(70, 26)
+        Me.Label33.Location = New System.Drawing.Point(69, 26)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(157, 22)
         Me.Label33.TabIndex = 8
@@ -551,7 +551,7 @@ Partial Class Main_Menu
         Me.TableLayoutPanel26.RowCount = 1
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel26.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel26.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel26.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel26.TabIndex = 7
         '
         'Label25
@@ -559,7 +559,7 @@ Partial Class Main_Menu
         Me.Label25.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(70, 15)
+        Me.Label25.Location = New System.Drawing.Point(69, 15)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(180, 44)
         Me.Label25.TabIndex = 6
@@ -585,12 +585,12 @@ Partial Class Main_Menu
         Me.TableLayoutPanel25.Controls.Add(Me.Label35, 1, 0)
         Me.TableLayoutPanel25.Controls.Add(Me.PictureBox32, 0, 0)
         Me.TableLayoutPanel25.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel25.Location = New System.Drawing.Point(916, 147)
+        Me.TableLayoutPanel25.Location = New System.Drawing.Point(911, 147)
         Me.TableLayoutPanel25.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel25.Name = "TableLayoutPanel25"
         Me.TableLayoutPanel25.RowCount = 1
         Me.TableLayoutPanel25.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel25.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel25.Size = New System.Drawing.Size(446, 74)
         Me.TableLayoutPanel25.TabIndex = 5
         '
         'Label35
@@ -598,7 +598,7 @@ Partial Class Main_Menu
         Me.Label35.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(70, 15)
+        Me.Label35.Location = New System.Drawing.Point(69, 15)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(155, 44)
         Me.Label35.TabIndex = 8
@@ -624,12 +624,12 @@ Partial Class Main_Menu
         Me.TableLayoutPanel24.Controls.Add(Me.Label36, 1, 0)
         Me.TableLayoutPanel24.Controls.Add(Me.PictureBox31, 0, 0)
         Me.TableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel24.Location = New System.Drawing.Point(916, 221)
+        Me.TableLayoutPanel24.Location = New System.Drawing.Point(911, 221)
         Me.TableLayoutPanel24.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel24.Name = "TableLayoutPanel24"
         Me.TableLayoutPanel24.RowCount = 1
         Me.TableLayoutPanel24.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel24.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel24.Size = New System.Drawing.Size(446, 74)
         Me.TableLayoutPanel24.TabIndex = 6
         '
         'Label36
@@ -637,7 +637,7 @@ Partial Class Main_Menu
         Me.Label36.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(70, 26)
+        Me.Label36.Location = New System.Drawing.Point(69, 26)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(157, 22)
         Me.Label36.TabIndex = 8
@@ -663,12 +663,12 @@ Partial Class Main_Menu
         Me.TableLayoutPanel22.Controls.Add(Me.Label34, 1, 0)
         Me.TableLayoutPanel22.Controls.Add(Me.PictureBox29, 0, 0)
         Me.TableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel22.Location = New System.Drawing.Point(916, 55)
+        Me.TableLayoutPanel22.Location = New System.Drawing.Point(911, 55)
         Me.TableLayoutPanel22.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel22.Name = "TableLayoutPanel22"
         Me.TableLayoutPanel22.RowCount = 1
         Me.TableLayoutPanel22.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel22.Size = New System.Drawing.Size(448, 92)
+        Me.TableLayoutPanel22.Size = New System.Drawing.Size(446, 92)
         Me.TableLayoutPanel22.TabIndex = 4
         '
         'Label34
@@ -676,7 +676,7 @@ Partial Class Main_Menu
         Me.Label34.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(70, 2)
+        Me.Label34.Location = New System.Drawing.Point(69, 2)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(341, 88)
         Me.Label34.TabIndex = 8
@@ -703,13 +703,13 @@ Partial Class Main_Menu
         Me.TableLayoutPanel20.Controls.Add(Me.Label24, 1, 0)
         Me.TableLayoutPanel20.Controls.Add(Me.PictureBox28, 0, 0)
         Me.TableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel20.Location = New System.Drawing.Point(468, 295)
+        Me.TableLayoutPanel20.Location = New System.Drawing.Point(465, 295)
         Me.TableLayoutPanel20.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel20.Name = "TableLayoutPanel20"
         Me.TableLayoutPanel20.RowCount = 1
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel20.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel20.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel20.Size = New System.Drawing.Size(446, 74)
         Me.TableLayoutPanel20.TabIndex = 5
         '
         'Label24
@@ -717,7 +717,7 @@ Partial Class Main_Menu
         Me.Label24.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(70, 15)
+        Me.Label24.Location = New System.Drawing.Point(69, 15)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(180, 44)
         Me.Label24.TabIndex = 6
@@ -743,12 +743,12 @@ Partial Class Main_Menu
         Me.TableLayoutPanel21.Controls.Add(Me.Label30, 1, 0)
         Me.TableLayoutPanel21.Controls.Add(Me.PictureBox27, 0, 0)
         Me.TableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel21.Location = New System.Drawing.Point(468, 221)
+        Me.TableLayoutPanel21.Location = New System.Drawing.Point(465, 221)
         Me.TableLayoutPanel21.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel21.Name = "TableLayoutPanel21"
         Me.TableLayoutPanel21.RowCount = 1
         Me.TableLayoutPanel21.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel21.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel21.Size = New System.Drawing.Size(446, 74)
         Me.TableLayoutPanel21.TabIndex = 5
         '
         'Label30
@@ -756,7 +756,7 @@ Partial Class Main_Menu
         Me.Label30.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(70, 26)
+        Me.Label30.Location = New System.Drawing.Point(69, 26)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(157, 22)
         Me.Label30.TabIndex = 9
@@ -782,13 +782,13 @@ Partial Class Main_Menu
         Me.TableLayoutPanel19.Controls.Add(Me.Label29, 1, 0)
         Me.TableLayoutPanel19.Controls.Add(Me.PictureBox26, 0, 0)
         Me.TableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel19.Location = New System.Drawing.Point(468, 147)
+        Me.TableLayoutPanel19.Location = New System.Drawing.Point(465, 147)
         Me.TableLayoutPanel19.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel19.Name = "TableLayoutPanel19"
         Me.TableLayoutPanel19.RowCount = 1
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel19.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
-        Me.TableLayoutPanel19.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel19.Size = New System.Drawing.Size(446, 74)
         Me.TableLayoutPanel19.TabIndex = 4
         '
         'Label29
@@ -796,7 +796,7 @@ Partial Class Main_Menu
         Me.Label29.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(70, 15)
+        Me.Label29.Location = New System.Drawing.Point(69, 15)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(155, 44)
         Me.Label29.TabIndex = 8
@@ -819,7 +819,7 @@ Partial Class Main_Menu
         Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(919, 9)
+        Me.Label22.Location = New System.Drawing.Point(914, 9)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(113, 36)
         Me.Label22.TabIndex = 2
@@ -831,7 +831,7 @@ Partial Class Main_Menu
         Me.Label21.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Segoe UI Emoji", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(471, 9)
+        Me.Label21.Location = New System.Drawing.Point(468, 9)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(150, 36)
         Me.Label21.TabIndex = 1
@@ -856,13 +856,13 @@ Partial Class Main_Menu
         Me.TableLayoutPanel18.Controls.Add(Me.Label28, 1, 0)
         Me.TableLayoutPanel18.Controls.Add(Me.PictureBox25, 0, 0)
         Me.TableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel18.Location = New System.Drawing.Point(468, 55)
+        Me.TableLayoutPanel18.Location = New System.Drawing.Point(465, 55)
         Me.TableLayoutPanel18.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel18.Name = "TableLayoutPanel18"
         Me.TableLayoutPanel18.RowCount = 1
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 92.0!))
-        Me.TableLayoutPanel18.Size = New System.Drawing.Size(448, 92)
+        Me.TableLayoutPanel18.Size = New System.Drawing.Size(446, 92)
         Me.TableLayoutPanel18.TabIndex = 3
         '
         'Label28
@@ -870,7 +870,7 @@ Partial Class Main_Menu
         Me.Label28.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(70, 13)
+        Me.Label28.Location = New System.Drawing.Point(69, 13)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(345, 66)
         Me.Label28.TabIndex = 7
@@ -897,12 +897,12 @@ Partial Class Main_Menu
         Me.TableLayoutPanel23.Controls.Add(Me.Label23, 1, 0)
         Me.TableLayoutPanel23.Controls.Add(Me.PictureBox30, 0, 0)
         Me.TableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel23.Location = New System.Drawing.Point(916, 295)
+        Me.TableLayoutPanel23.Location = New System.Drawing.Point(911, 295)
         Me.TableLayoutPanel23.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel23.Name = "TableLayoutPanel23"
         Me.TableLayoutPanel23.RowCount = 1
         Me.TableLayoutPanel23.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel23.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel23.Size = New System.Drawing.Size(446, 74)
         Me.TableLayoutPanel23.TabIndex = 7
         '
         'Label23
@@ -910,7 +910,7 @@ Partial Class Main_Menu
         Me.Label23.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(70, 15)
+        Me.Label23.Location = New System.Drawing.Point(69, 15)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(180, 44)
         Me.Label23.TabIndex = 6
@@ -941,7 +941,7 @@ Partial Class Main_Menu
         Me.TableLayoutPanel28.Name = "TableLayoutPanel28"
         Me.TableLayoutPanel28.RowCount = 1
         Me.TableLayoutPanel28.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel28.Size = New System.Drawing.Size(448, 74)
+        Me.TableLayoutPanel28.Size = New System.Drawing.Size(445, 74)
         Me.TableLayoutPanel28.TabIndex = 8
         '
         'Label32
@@ -949,7 +949,7 @@ Partial Class Main_Menu
         Me.Label32.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Segoe UI Emoji", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(70, 15)
+        Me.Label32.Location = New System.Drawing.Point(69, 15)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(155, 44)
         Me.Label32.TabIndex = 8
@@ -1755,7 +1755,7 @@ Partial Class Main_Menu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.870229!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.34096!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 164.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 172.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox2, 4, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox4, 3, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.SearchBar_Text, 2, 1)
@@ -1776,7 +1776,7 @@ Partial Class Main_Menu
         '
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox2.Image = Global.LC_TECH.My.Resources.Resources.cart_shopping_solid_full
-        Me.PictureBox2.Location = New System.Drawing.Point(931, 12)
+        Me.PictureBox2.Location = New System.Drawing.Point(923, 12)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(0)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(30, 30)
@@ -1788,7 +1788,7 @@ Partial Class Main_Menu
         '
         Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox4.Image = Global.LC_TECH.My.Resources.Resources.user_solid_full
-        Me.PictureBox4.Location = New System.Drawing.Point(856, 12)
+        Me.PictureBox4.Location = New System.Drawing.Point(848, 12)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(0, 0, 10, 0)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(30, 30)
@@ -1801,7 +1801,7 @@ Partial Class Main_Menu
         Me.SearchBar_Text.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.SearchBar_Text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.SearchBar_Text.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SearchBar_Text.Location = New System.Drawing.Point(325, 14)
+        Me.SearchBar_Text.Location = New System.Drawing.Point(322, 14)
         Me.SearchBar_Text.Name = "SearchBar_Text"
         Me.SearchBar_Text.Size = New System.Drawing.Size(500, 30)
         Me.SearchBar_Text.TabIndex = 3
@@ -1810,7 +1810,7 @@ Partial Class Main_Menu
         '
         Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox3.Image = Global.LC_TECH.My.Resources.Resources.magnifying_glass_solid_full
-        Me.PictureBox3.Location = New System.Drawing.Point(289, 16)
+        Me.PictureBox3.Location = New System.Drawing.Point(286, 16)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(0, 0, 10, 0)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(23, 23)
@@ -1825,7 +1825,7 @@ Partial Class Main_Menu
         Me.Product_DropBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Product_DropBox.FormattingEnabled = True
         Me.Product_DropBox.Items.AddRange(New Object() {"All", "Peripherals", "Components", "Accessories", "Laptops", "Pre Built PCs"})
-        Me.Product_DropBox.Location = New System.Drawing.Point(116, 11)
+        Me.Product_DropBox.Location = New System.Drawing.Point(113, 11)
         Me.Product_DropBox.Margin = New System.Windows.Forms.Padding(0)
         Me.Product_DropBox.Name = "Product_DropBox"
         Me.Product_DropBox.Size = New System.Drawing.Size(148, 30)

@@ -119,8 +119,12 @@ Public Class Login_Menu
             End Using
         End Using
     End Function
+
+    Dim count As Integer = 0
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
         Basic.Open_admin_login += 1
+        count += 1
+        Label6.Text = count.ToString()
     End Sub
 End Class
 
